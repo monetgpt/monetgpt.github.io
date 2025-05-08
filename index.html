@@ -19,8 +19,8 @@
   const initialLoad = 10;
 
   // Methods and their display names for the main comparison
-  const methods = ["gemini", "exposure", "mgie",  "rsfnet", "google_photos"];
-  const methodDisplayNames = ["Gemini 2.0 CoT + our library","Exposure", "MGIE", "RSFNet", "Google Photos"];
+  const methods = ["gemini", "exposure", "mgie",  "rsfnet", "regression", "google_photos"];
+  const methodDisplayNames = ["Gemini 2.0 CoT + our library","Exposure", "MGIE", "RSFNet", "MLLM Regression", "Google Photos"];
 
 
   /**
@@ -242,8 +242,8 @@
 
 .method-toggle button {
   margin: 0 0.5rem;
-  padding: 0.7rem 1.4rem; /* Slightly larger buttons */
-  font-size: 0.95rem; /* Slightly larger font */
+  padding: 0.4rem 1.4rem; /* Slightly larger buttons */
+  font-size: 0.85rem; /* Slightly larger font */
   border: 1px solid #ccc;
   background: #fff;
   border-radius: 4px;
@@ -328,7 +328,7 @@
   font-weight: bold;
   margin-bottom: 0.75rem; /* Increased spacing */
   font-size: 0.9rem;
-  color: #555;
+  color: #000000;
 }
 
 .reasoning-section-below {
