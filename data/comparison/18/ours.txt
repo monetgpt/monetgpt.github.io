@@ -1,0 +1,76 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring soft daylight, with slightly underexposed shadows and a general lack of contrast. Since it captures a floral arrangement, the editing should emphasize brightening the overall image, enhancing contrast to make the flowers pop, and recovering details in the shadows to create a more vibrant and visually appealing photograph.
+
+**Adjustment:** The blacks need to be very slightly increased.
+**Issue:** In the original image, the black tones, particularly in the background and within the darker parts of the purple flowers, appear somewhat dense and lack subtle detail. This makes these areas feel slightly flat and less defined.
+**Solution:** By very slightly increasing the blacks, the darkest tones will be lifted, revealing more detail in the shadowed areas of the background and within the purple flowers. The edited image will have a slightly brighter and more open feel in the darker regions, without losing depth.
+
+**Adjustment:** The contrast needs to be slightly increased.
+**Issue:** The original image appears somewhat flat and lacks visual punch. The separation between the lighter and darker tones is not pronounced enough, resulting in a less dynamic and slightly muted appearance overall.
+**Solution:** By slightly increasing the contrast, the difference between the highlights and shadows will be enhanced. The edited image will exhibit a greater sense of depth and visual interest, with the flowers and background elements standing out more distinctly from each other.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, especially on the yellow flowers and some petals of the purple flowers, are present but could be slightly brighter to enhance the overall luminosity of the scene. They appear a bit subdued, preventing the image from feeling as vibrant as it could be.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, such as the yellow flowers and the lighter petals of the purple flowers, will become more luminous. The edited image will have a subtly brighter and more airy feel, enhancing the overall vibrancy without causing any highlight clipping.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** The shadows in the original image, particularly in the background and within the darker parts of the purple flowers, are somewhat deep and obscure details. This makes these areas appear less defined and slightly heavy, reducing the overall clarity of the image.
+**Solution:** By very slightly increasing the shadows, the darker areas of the image will be brightened, revealing more detail in the background and within the purple flowers. The edited image will have a more balanced tonal range, with details in the shadowed areas becoming more visible and contributing to a more open and detailed look.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image are present but could be slightly brighter to enhance the overall brightness and clarity of the image. They appear a bit muted, preventing the image from achieving its full potential in terms of brightness and vibrancy.
+**Solution:** By very slightly increasing the whites, the brightest tones in the image will be enhanced, making the overall image appear brighter and more vibrant. The edited image will have a cleaner and more polished look, with the white elements contributing to a more luminous and visually appealing final result. 
+
+The parameters for **[Exposure]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 10, \"Contrast\": 14, \"Highlights\": 11, \"Shadows\": 10, \"Whites\": 11}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and appears somewhat under-saturated, which makes the colors look a bit muted and less vibrant. Since it depicts a floral arrangement with colorful flowers, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a fresh and lively feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The Temperature needs to be increased very slightly.
+**Issue:** In the original image, there is a subtle cool cast, noticeable in the slightly bluish tint of the purple flowers and the overall muted tones of the scene. This coolness makes the image feel less inviting and slightly less vibrant.
+**Solution:** By very slightly increasing the temperature, the image will shift towards a warmer tone. This will neutralize the cool cast, making the purple flowers appear richer and more natural, and the overall scene will gain a more inviting and pleasant warmth.
+
+**Adjustment:** The Saturation needs to be increased very slightly.
+**Issue:** The original image appears slightly under-saturated, resulting in colors that look somewhat muted and less impactful. The vibrant yellow flowers and the purple flowers lack some of their potential richness and depth of color.
+**Solution:** By very slightly increasing the saturation, the colors throughout the image will become more vibrant and pronounced. The yellow flowers will appear more lively, and the purple flowers will gain a richer, more saturated hue, enhancing the overall visual appeal and making the image more engaging. 
+
+The parameters for **[Tint]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 11, \"Saturation\": 11}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant purple tones, particularly in the center flower, which makes the overall image appear less lively. Since it depicts a floral arrangement with a prominent purple flower, the editing should target the purple color range to enhance its vibrancy and richness without affecting other colors in the scene. To achieve this, adjustments like increasing the saturation of purple and slightly shifting its hue will help create the intended effect of a more vibrant and visually appealing floral arrangement.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the purple color needs to be moderately increased.
+**Issue:** In the original image, the purple color of the center flower appears somewhat muted and lacks vibrancy. This reduced saturation makes the flower less visually striking and diminishes the overall impact of the floral arrangement.
+**Solution:** By moderately increasing the saturation of the purple color, the purple flower in the edited image will become significantly more vibrant and visually prominent. This enhancement will make the flower a more eye-catching focal point and contribute to a more lively and engaging image.
+
+**Adjustment:** The hue of the purple color needs to be very slightly adjusted towards a warmer tone.
+**Issue:** In the original image, the purple color of the center flower might lean slightly towards a cooler or less saturated shade of purple. This subtle hue issue can make the purple appear less rich and less harmonious with the surrounding yellow flowers.
+**Solution:** By very slightly adjusting the hue of the purple color towards a warmer tone, the purple flower in the edited image will exhibit a richer and more vibrant purple. This subtle shift will enhance the color harmony within the floral arrangement and make the purple flower appear more visually appealing and integrated with the overall color palette. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentPurple\": 42, \"HueAdjustmentPurple\": 1}"
+```
+<|im_end|>

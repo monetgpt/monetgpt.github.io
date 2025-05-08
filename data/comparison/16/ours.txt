@@ -1,0 +1,84 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring soft twilight glow, with slightly underexposed shadows and low contrast. Since it captures a city street scene with buildings and people, the editing should emphasize brightening the image, enhancing contrast, and bringing out details in shadows to create a more vibrant and visually appealing photograph that reflects the natural atmosphere of a city at dusk.
+
+**Adjustment:** The blacks need to be mildly increased.
+**Issue:** In the original image, the black tones, particularly in the shadowed areas of the buildings and the street, are too deep and lack detail. This makes these areas appear muddy and obscures the textures and forms within the shadows.
+**Solution:** By mildly increasing the blacks, the shadow areas will become brighter, revealing more detail in the darker parts of the buildings and the street. The edited image will have improved visibility in these regions, making the scene more informative and less obscured by darkness.
+
+**Adjustment:** The contrast needs to be moderately increased.
+**Issue:** The original image appears somewhat flat and lacks dynamic range. The tonal separation between the highlights and shadows is not strong enough, resulting in a less impactful and slightly dull appearance overall.
+**Solution:** By moderately increasing the contrast, the difference between the light and dark areas of the image will be enhanced. The edited image will have a greater sense of depth and visual interest, with brighter highlights and darker shadows creating a more dynamic and engaging photograph.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, such as those on the buildings and the sky, are slightly muted and could be brighter to enhance the overall luminosity of the scene. They appear a bit subdued, preventing the image from having a full range of tones.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, like the buildings and sky, will become more luminous. The edited image will have a subtle lift in the brighter tones, contributing to a more airy and open feel without losing detail in the highlight areas.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** The shadows in the original image, especially in the darker parts of the buildings and the street, are a bit too dense and could benefit from a slight lift to reveal more detail. They are slightly underexposed, making these areas appear less defined.
+**Solution:** By very slightly increasing the shadows, the darker areas of the image will be subtly brightened. The edited image will reveal more detail in the shadowed regions, making the buildings and the street appear more textured and less obscured by darkness.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image are not fully realized, appearing slightly subdued. This contributes to the overall slightly muted and less vibrant appearance of the image, preventing it from having a full tonal range.
+**Solution:** By very slightly increasing the whites, the brightest tones in the image will be subtly enhanced. The edited image will have a slightly expanded tonal range, with brighter whites that contribute to a more complete and visually appealing image without clipping or losing detail in the brightest areas.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than it could be. This slight underexposure reduces the overall brightness and vibrancy of the image, making it feel less lively.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. The edited image will be brighter and more inviting, with a more balanced and pleasing overall luminosity, making the scene feel more naturally lit and vibrant. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 30, \"Contrast\": 42, \"Highlights\": 1, \"Shadows\": 10, \"Whites\": 1, \"Exposure\": 10}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene appear somewhat muted and less engaging. Since it depicts a city street scene with people and cars, the editing goal is to refine the overall color balance to achieve a more vibrant and inviting mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more lively and visually appealing atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The temperature needs to be very slightly increased.
+**Issue:** In the original image, the overall tone appears slightly cool. This coolness is noticeable in the greyish tones of the buildings and the slightly bluish cast in the sky. This cool tone makes the scene feel less inviting and slightly muted.
+**Solution:** By very slightly increasing the temperature, the image will shift towards a warmer tone. This will neutralize the cool cast, making the buildings appear more naturally toned and the sky less bluish, resulting in a more balanced and inviting overall color palette.
+
+**Adjustment:** The tint needs to be very slightly increased towards magenta.
+**Issue:** The original image exhibits a subtle greenish tint, particularly noticeable in the grey areas of the buildings and the pavement. This slight green cast can make the image look slightly unnatural and less refined in its color balance.
+**Solution:** By very slightly increasing the tint towards magenta, the subtle greenish cast will be neutralized. This adjustment will balance the color tones, making the grey areas of the buildings and pavement appear more neutral and natural, and improving the overall color accuracy of the image.
+
+**Adjustment:** The saturation needs to be slightly increased.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. The yellow of the car, the red of the building, and the overall scene seem less lively and impactful. This lower saturation level makes the image feel less dynamic and visually engaging.
+**Solution:** By slightly increasing the saturation, the colors throughout the image will become more vibrant and pronounced. The yellow of the car will become more eye-catching, the red of the building will pop more, and the overall scene will gain a greater sense of depth and visual appeal, resulting in a more dynamic and engaging photograph. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Tint\": 1, \"Saturation\": 18}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly in the building facades and the street markings, which makes the scene appear a bit less lively and warm. Since it depicts a city street scene with buildings and street elements, the editing should target the orange color range to enhance the warmth and vibrancy of these elements without drastically altering the overall color balance of the scene. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards red will help create the intended effect of a warmer and more visually appealing image with enhanced color depth.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be slightly increased.
+**Issue:** In the original image, the orange colors, especially noticeable in the building facades and the street markings, appear somewhat muted and lack vibrancy. This desaturation makes these elements look less prominent and less visually engaging, contributing to a slightly dull overall impression of the scene.
+**Solution:** By slightly increasing the saturation of the orange tones, the orange elements in the image, such as the building facades and the street markings, will become more vibrant and visually appealing. This enhancement will add a touch of warmth and richness to these areas, making them stand out more and contributing to a more lively and engaging image.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly shifted towards red.
+**Issue:** In the original image, the orange tones in the building facades and the street markings lean slightly towards yellow, making them appear a bit less rich and warm. This subtle yellowish tint in the orange hues can make these elements feel slightly less defined and less harmonious with the overall color palette of the scene.
+**Solution:** By very slightly shifting the hue of the orange tones towards red, the orange colors in the building facades and the street markings will become warmer and richer. This subtle hue adjustment will reduce the yellowish tint, resulting in a more refined and visually appealing orange tone that enhances the overall warmth and color harmony of the image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 15, \"HueAdjustmentOrange\": -1}"
+```
+<|im_end|>

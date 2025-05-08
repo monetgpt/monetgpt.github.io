@@ -1,0 +1,84 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring harsh sunlight, with slightly underexposed shadows and a somewhat flat tonal range. Since it captures a woman posing on rocks with a scenic mountain background, the editing should emphasize brightening the overall image, enhancing contrast, and bringing out details in shadows to create a more vibrant and visually appealing photograph that reflects a bright, sunny day.
+
+**Adjustment:** The blacks need to be mildly increased.
+**Issue:** In the original image, the black tones, particularly in the shadows of the rocks and the darker areas of the background foliage, are too deep and lack detail. This makes these areas appear somewhat muddy and reduces the overall clarity of the image.
+**Solution:** By mildly increasing the blacks, the shadow areas will be lifted, revealing more detail in the darker parts of the rocks and background. The edited image will have a more open shadow region, improving the overall tonal balance and preventing the shadows from appearing overly dense.
+
+**Adjustment:** The contrast needs to be slightly increased.
+**Issue:** The original image appears somewhat flat and lacks dynamic range. The separation between the lighter and darker tones is not pronounced enough, resulting in a less impactful image.
+**Solution:** By slightly increasing the contrast, the difference between the highlights and shadows will be enhanced. The edited image will have a greater sense of depth and visual interest, with a more distinct separation between tones, making the scene more dynamic.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, especially in the sky and on the brighter parts of the rocks, are slightly muted and could benefit from a subtle lift to enhance the overall brightness of the scene.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, such as the sky and the sunlit parts of the rocks, will become a touch brighter. The edited image will have a slightly more airy and luminous feel, without losing detail in the highlight areas.
+
+**Adjustment:** The shadows need to be very slightly reduced.
+**Issue:** While the shadows are generally underexposed, some areas within the shadows might appear slightly lifted or muddy after increasing blacks. This can make the shadows appear less defined and potentially slightly washed out.
+**Solution:** By very slightly reducing the shadows, the shadow areas will regain a bit more definition and depth. The edited image will maintain a brightened shadow region but with slightly more controlled and defined shadows, preventing them from becoming overly bright or losing their shape.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image, particularly in the sky and the brightest parts of the rocks, are not fully realized and could be slightly brighter to enhance the overall brightness and vibrancy of the scene.
+**Solution:** By very slightly increasing the whites, the absolute brightest points in the image, such as the sky and the lightest parts of the rocks, will become a bit more pronounced. The edited image will have a slightly brighter and more vibrant overall appearance, enhancing the sense of a bright, sunny day.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than it could be. This slight underexposure reduces the overall brightness and vibrancy of the photograph.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. The edited image will appear brighter and more vibrant, correcting the slight underexposure and making the scene more visually appealing and reflective of a bright day. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 29, \"Contrast\": 17, \"Highlights\": 1, \"Shadows\": -1, \"Whites\": 1, \"Exposure\": 12}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene look a bit muted and less engaging. Since it depicts a natural landscape with a woman posing on rocks, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more inviting and lively atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The temperature needs to be very slightly increased.
+**Issue:** In the original image, the overall tone appears slightly cool, which is noticeable in the bluish tint of the sky and the slightly muted tones of the rocks and the woman's skin. This coolness makes the scene feel less inviting and slightly less natural.
+**Solution:** By very slightly increasing the temperature, the edited image will introduce a touch of warmth, counteracting the cool tones. This will result in a more balanced and natural color temperature, making the scene feel more inviting and pleasant.
+
+**Adjustment:** The tint needs to be very slightly increased towards magenta.
+**Issue:** The original image exhibits a subtle greenish tint, particularly visible in the lighter areas of the rocks and the sky. This slight green cast can make the image look slightly unnatural and less refined in its color balance.
+**Solution:** By very slightly increasing the tint towards magenta, the edited image will neutralize the subtle green cast present in the original. This adjustment will lead to a more balanced and neutral color palette, enhancing the overall natural appearance of the scene.
+
+**Adjustment:** The saturation needs to be mildly increased.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. The greens of the foliage in the background and the blue of the sky, while present, do not pop and lack the richness that would enhance the visual impact of the landscape.
+**Solution:** By mildly increasing the saturation, the edited image will enhance the vibrancy and intensity of all colors across the scene. The greens of the trees will become richer, the blue of the sky will become more pronounced, and the overall image will gain a more lively and visually appealing color palette, making the scene more engaging and dynamic. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Tint\": 1, \"Saturation\": 32}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant greens in the foliage, which makes the landscape appear less lively and slightly dull. Since it depicts a woman in a natural outdoor setting with lush greenery, the editing should target the green tones to enhance the vibrancy and natural appearance of the environment without drastically altering the overall color balance. To achieve this, adjustments like increasing the saturation of greens and slightly shifting their hue will help create the intended effect of a more vibrant and naturally appealing landscape.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the greens needs to be mildly increased.
+**Issue:** In the original image, the green foliage in the background and foreground appears somewhat desaturated and lacks vibrancy. This mutedness makes the greenery look less lush and lively, diminishing the overall visual appeal of the natural setting.
+**Solution:** By mildly increasing the saturation of the greens, the foliage in the edited image will appear more vibrant and lush. This enhancement will make the greenery more visually appealing and contribute to a more lively and engaging landscape.
+
+**Adjustment:** The hue of the greens needs to be very slightly adjusted towards a warmer tone.
+**Issue:** In the original image, the green tones in the foliage might lean slightly towards a cooler or less natural shade of green. This subtle hue issue can make the greens appear slightly less harmonious with the overall warm tones of the scene.
+**Solution:** By very slightly adjusting the hue of the greens towards a warmer direction, the foliage in the edited image will exhibit a more natural and pleasing green tone. This subtle shift will enhance the overall color harmony of the image, making the greens appear more realistic and integrated within the scene. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentGreen\": 25, \"HueAdjustmentGreen\": 1}"
+```
+<|im_end|>

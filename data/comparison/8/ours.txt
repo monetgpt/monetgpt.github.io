@@ -1,0 +1,76 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring harsh sunlight, with slightly underexposed shadows and somewhat muted highlights. Since it captures a scenic view with a focus on a vintage viewing device and the background elements like the water and the statue of Liberty, the editing should emphasize brightening the overall image, enhancing the highlights to create a more airy and pleasant atmosphere, and subtly lifting the shadows to reveal more detail in the darker areas, while maintaining a natural and balanced look.
+
+**Adjustment:** The blacks need to be slightly increased.
+**Issue:** In the original image, the black tones, particularly in the shadowed areas under the viewing device and in the darker parts of the background foliage, appear somewhat dense and lack detail. This makes these areas feel slightly heavy and less defined.
+**Solution:** By slightly increasing the blacks, the shadow areas will be lifted, revealing more detail in the darker parts of the image, such as under the viewing device and in the background foliage. The edited image will have a more open and less constricted feel in the shadow regions.
+
+**Adjustment:** The highlights need to be mildly increased.
+**Issue:** In the original image, the highlights, especially on the metallic parts of the viewing device and the water surface, appear somewhat subdued and lack a certain brilliance. This makes the image feel slightly less vibrant and less reflective of bright daylight conditions.
+**Solution:** By mildly increasing the highlights, the brighter areas of the image, such as the metallic parts of the viewing device and the water surface, will gain luminosity and appear more reflective of bright daylight. The edited image will have a more airy and bright feel, enhancing the overall vibrancy.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** In the original image, the shadows, particularly noticeable under the viewing device and in the darker areas of the background, are slightly too deep, potentially obscuring subtle details within these regions. This can make the image feel a bit closed in and less detailed in the shadowed areas.
+**Solution:** By very slightly increasing the shadows, the darker areas will be subtly brightened, revealing more detail within the shadows under the viewing device and in the background foliage. The edited image will have a more balanced tonal range, with improved visibility in the shadow areas.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** In the original image, the white tones, such as in the sky and the lighter parts of the water, appear slightly muted and not as bright as they could be. This contributes to the overall slightly subdued feel of the image.
+**Solution:** By very slightly increasing the whites, the brightest areas of the image, like the sky and the lighter parts of the water, will become a touch brighter. The edited image will have a slightly more open and airy feel, with the white tones appearing cleaner and more pronounced.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image appears to be marginally underexposed overall, resulting in a slightly darker and less vibrant appearance. This slight underexposure can make the entire scene feel a bit less lively and energetic.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. The edited image will appear brighter and more vibrant, improving the overall visual appeal and making the scene feel more open and inviting. 
+
+The parameters for **[Contrast]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 18, \"Highlights\": 34, \"Shadows\": 11, \"Whites\": 1, \"Exposure\": 1}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight green cast and under-saturated colors, which makes the scene look a bit dull and lifeless. Since it depicts a scenic outdoor view with a person and a cityscape in the background, the editing goal is to refine the white balance and enhance the overall color intensity to achieve a more vibrant and engaging mood. To accomplish this, adjustments like Tint and Saturation will help correct the green tint and boost the color richness, ensuring the final image conveys a more lively and visually appealing atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The tint needs to be slightly increased towards magenta.
+**Issue:** The original image exhibits a subtle green cast, particularly noticeable in the water and the sky. This green tint makes the overall color balance appear slightly unnatural and less appealing, detracting from the natural beauty of the scene.
+**Solution:** By slightly increasing the tint towards magenta, the green cast will be neutralized. The edited image will have a more balanced and natural color rendition, making the water and sky appear cleaner and more realistic, thus enhancing the overall visual harmony.
+
+**Adjustment:** The global saturation needs to be mildly increased.
+**Issue:** The original image appears somewhat desaturated, with colors lacking vibrancy and depth. The colors of the water, the sky, and the distant cityscape all appear muted, resulting in a less dynamic and less engaging image.
+**Solution:** By mildly increasing the global saturation, the colors throughout the image will become richer and more vibrant. The edited image will have more pronounced colors in the water, sky, and cityscape, making the scene more visually appealing and lively, and enhancing the overall impact of the photograph. 
+
+The parameters for **[Temperature]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Tint\": 13, \"Saturation\": 30}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant blues in the sky and water, which makes the scene appear a bit less lively and impactful. Since it depicts a scenic view with a clear sky and water, the editing should target the blue tones to enhance the overall vibrancy and visual appeal without drastically altering the natural look. To achieve this, adjustments like increasing the saturation of blues and slightly shifting their hue will help create the intended effect of a more vibrant and visually engaging image with richer, more appealing blue tones.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the blue tones needs to be mildly increased.
+**Issue:** In the original image, the blue colors in the sky and water appear somewhat muted and lack vibrancy. This desaturation makes the scene feel less lively and less visually appealing, diminishing the impact of the clear sky and water.
+**Solution:** By mildly increasing the saturation of the blue tones, the sky and water in the edited image will appear more vibrant and richer. This will enhance the overall visual appeal of the scene, making it more engaging and dynamic.
+
+**Adjustment:** The hue of the blue tones needs to be very slightly adjusted towards a warmer blue.
+**Issue:** In the original image, the blue tones in the sky and water might lean slightly towards a cooler, less saturated blue. This subtle coolness can make the blue areas appear slightly less inviting and less naturally vibrant.
+**Solution:** By very slightly adjusting the hue of the blue tones towards a warmer blue, the sky and water in the edited image will exhibit a slightly richer and more inviting blue. This subtle shift will enhance the natural appearance of the blue elements and contribute to a more visually pleasing overall color balance. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentBlue\": 30, \"HueAdjustmentBlue\": 1}"
+```
+<|im_end|>

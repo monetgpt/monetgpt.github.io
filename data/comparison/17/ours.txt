@@ -1,0 +1,84 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken during daytime, featuring harsh sunlight, with overexposed highlights and slightly underexposed shadows. Since it captures a portrait of a woman in a historical architectural setting, the editing should emphasize balancing the exposure, recovering details in both highlights and shadows, and adding contrast to enhance the visual appeal and create a more dramatic and atmospheric mood.
+
+**Adjustment:** The blacks need to be very slightly reduced.
+**Issue:** In the original image, the black tones, particularly in the shadowed areas of the architectural details and the woman's dress, appear slightly lifted and not as deep as they could be. This makes the image look a bit washed out and reduces the overall depth and richness of the darker areas.
+**Solution:** By very slightly reducing the blacks, the darker areas of the image will become richer and deeper. The shadows in the architectural details and the woman's dress will gain more definition, enhancing the overall depth and contrast of the image.
+
+**Adjustment:** The contrast needs to be mildly increased.
+**Issue:** The original image appears somewhat flat and lacks dynamic range. The separation between the lighter and darker tones is not pronounced enough, resulting in a less impactful and slightly dull visual experience.
+**Solution:** By mildly increasing the contrast, the difference between the light and dark areas of the image will be enhanced. This will introduce more visual dynamism and make the image more engaging by creating a greater sense of depth and separation between elements.
+
+**Adjustment:** The highlights need to be very slightly reduced.
+**Issue:** In the original image, the highlights, especially on the bright parts of the architectural structure and potentially on the woman's face, are slightly too bright and verge on being overexposed. This can lead to a loss of detail in these bright areas and make them appear less textured.
+**Solution:** By very slightly reducing the highlights, the brightest areas of the image will be toned down, recovering subtle details in the architectural structure and potentially on the woman's face. This will prevent the highlights from appearing blown out and contribute to a more balanced tonal range.
+
+**Adjustment:** The shadows need to be mildly increased.
+**Issue:** In the original image, the shadow areas, particularly within the architectural details and under the woman's dress, are somewhat underexposed and lack detail. This makes these areas appear dark and obscures the textures and forms within the shadows.
+**Solution:** By mildly increasing the shadows, the details in the darker areas of the image will be revealed. The architectural details within the shadows will become more visible, and the areas under the woman's dress will show more texture, improving the overall clarity and information in the shadow regions.
+
+**Adjustment:** The whites need to be very slightly reduced.
+**Issue:** In the original image, the white tones, especially in the brightest parts of the architectural structure, are slightly too intense and could be contributing to the overall slightly overexposed feel. This can make the image appear a bit harsh and less refined in its tonal transitions.
+**Solution:** By very slightly reducing the whites, the brightest white tones will be softened, leading to smoother tonal transitions and a more refined overall exposure. This will prevent the white areas from appearing too stark and contribute to a more balanced and pleasing image.
+
+**Adjustment:** The exposure needs to be very slightly reduced.
+**Issue:** The original image is slightly overexposed overall, resulting in a somewhat washed-out appearance and a loss of detail in the brighter areas. This overexposure makes the image feel less impactful and reduces the overall clarity and richness of the scene.
+**Solution:** By very slightly reducing the overall exposure, the image will become slightly darker and more balanced. This will help to bring down the intensity of the highlights and midtones, resulting in a richer and more detailed image with improved tonal depth and clarity. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": -11, \"Contrast\": 28, \"Highlights\": -11, \"Shadows\": 29, \"Whites\": -11, \"Exposure\": -1}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene appear somewhat muted and less engaging. Since it depicts an indoor scene with a person in a historical setting, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more inviting and visually appealing atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The Temperature needs to be increased very slightly.
+**Issue:** In the original image, the overall tone appears slightly cool. This coolness is noticeable in the stone walls and the subject's skin, making the scene feel a bit sterile and less inviting.
+**Solution:** By very slightly increasing the temperature, the image will gain a touch of warmth. This will neutralize the cool tones, making the stone walls appear more natural and the subject's skin tone healthier and more vibrant.
+
+**Adjustment:** The Tint needs to be increased very slightly.
+**Issue:** The original image exhibits a subtle greenish tint, particularly visible in the lighter areas of the stone and the subject's clothing. This slight green cast can make the image look slightly unnatural and less appealing.
+**Solution:** By very slightly increasing the tint towards magenta, the subtle greenish cast will be corrected. This will result in a more balanced color palette, making the stone and clothing appear more neutral and natural in tone.
+
+**Adjustment:** The Saturation needs to be increased very slightly.
+**Issue:** The original image appears somewhat desaturated, with colors lacking vibrancy. This is noticeable in the details of the stone walls, the subject's clothing, and the overall scene, making it look a bit flat and less visually engaging.
+**Solution:** By very slightly increasing the saturation, the colors throughout the image will become more pronounced and vibrant. The stone textures will gain richness, the subject's clothing will appear more colorful, and the overall scene will become more visually appealing and dynamic. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 12, \"Tint\": 12, \"Saturation\": 12}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly noticeable in the columns and the stone structure, which makes the scene appear a bit dull and less engaging. Since it depicts a historical architectural interior, the editing should target the orange color range to enhance the warmth and richness of the scene without drastically altering the overall color palette. To achieve this, adjustments like increasing the saturation of orange and slightly shifting its hue will help create the intended effect of a more vibrant and visually appealing image with enhanced warmth and depth.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be mildly increased.
+**Issue:** In the original image, the orange colors, especially in the columns and the stone structure, appear somewhat desaturated and lack vibrancy. This makes the scene look less lively and diminishes the richness of the architectural details.
+**Solution:** By mildly increasing the saturation of the orange tones, the columns and the stone structure will gain a noticeable vibrancy. The edited image will have richer and more pronounced orange hues, enhancing the visual appeal of the architectural elements and making the scene more engaging.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly adjusted towards a warmer direction.
+**Issue:** In the original image, the orange tones in the columns and the stone structure lean slightly towards a less saturated or slightly yellowish hue. This subtle color cast makes the orange appear less rich and slightly less warm, impacting the overall warmth of the scene.
+**Solution:** By very slightly adjusting the hue of the orange tones towards a warmer direction, the orange colors in the columns and the stone structure will become richer and more saturated. The edited image will exhibit a more refined and warmer orange tone, enhancing the overall warmth and visual appeal of the architectural details. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 25, \"HueAdjustmentOrange\": 1}"
+```
+<|im_end|>

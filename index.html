@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MonetGPT</title>
+<link href="./style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/marked@15.0.11/lib/marked.umd.min.js"></script>
+<script src="comparison_reasoning.js"></script> 
+<script>
+  // How many total images (rows) exist for the main comparison
+  const comparisonCount = 30;
+
+  // We will track how many rows are currently displayed
+  let itemsLoaded = 0;
+
+  // We initially show 10
+  const initialLoad = 10;
+
+  // Methods and their display names for the main comparison
+  const methods = ["gemini", "exposure", "mgie",  "rsfnet", "google_photos"];
+  const methodDisplayNames = ["Gemini 2.0 CoT + our library","Exposure", "MGIE", "RSFNet", "Google Photos"];
+
+
+  /**
+   * Build one comparison row for the given index, now including reasoning.
+   */
+  function createComparisonRow(index) {
+    const rowWrapper = document.createElement("div");
+    rowWrapper.className = "comparison-row";
+
+    const toggleContainer = document.createElement("div");
+    toggleContainer.className = "method-toggle";
+
+    // Use the 4-column layout class
+    const imagesContainer = document.createElement("div");
+    imagesContainer.className = "comparison-images"; // Changed class for 4 columns
+
+    // === 1) SOURCE Container ===
+    const sourceContainer = document.createElement("div");
+    sourceContainer.className = "image-container";
+    const sourceLabel = document.createElement("div");
+    sourceLabel.className = "image-label";
+    sourceLabel.textContent = "Source";
+    const sourceImg = document.createElement("img");
+    // sourceImg.src = `./data/comparison/${index}/source.png`;
+    sourceImg.src = `./data/comparison/${index}/source.jpg`;
+    sourceImg.alt = `Source ${index}`;
+    sourceImg.className = "comparison-img";
+    sourceContainer.appendChild(sourceLabel);
+    sourceContainer.appendChild(sourceImg);
+
+    // === 2) OTHER METHOD Container ===
+    const methodContainer = document.createElement("div");
+    methodContainer.className = "image-container";
+    const methodLabel = document.createElement("div");
+    methodLabel.className = "image-label";
+    methodLabel.textContent = methodDisplayNames[0]; // Default to first method
+    const middleImg = document.createElement("img");
+    // middleImg.src = `./data/comparison/${index}/${methods[0]}.png`;
+    middleImg.src = `./data/comparison/${index}/${methods[0]}.jpg`;
+    middleImg.alt = `Method ${methods[0]} for ${index}`;
+    middleImg.className = "comparison-img fade-in";
+    methodContainer.appendChild(methodLabel);
+    methodContainer.appendChild(middleImg);
+
+    // Create method toggle buttons
+    methods.forEach((method, i) => {
+      const btn = document.createElement("button");
+      btn.textContent = methodDisplayNames[i];
+      btn.style.cursor = "pointer";
+
+      btn.addEventListener("click", () => {
+        toggleContainer.querySelectorAll("button").forEach(button => {
+          button.classList.remove("selected");
+        });
+        btn.classList.add("selected");
+
+        middleImg.classList.remove("fade-in");
+        middleImg.classList.add("fade-out");
+        setTimeout(() => {
+          // middleImg.src = `./data/comparison/${index}/${method}.png`;
+          middleImg.src = `./data/comparison/${index}/${method}.jpg`;
+          middleImg.alt = `Method ${method} for ${index}`;
+          middleImg.classList.remove("fade-out");
+          middleImg.classList.add("fade-in");
+        }, 200);
+        methodLabel.textContent = methodDisplayNames[i];
+      });
+
+      if (i === 0) { // Highlight the first button by default
+        btn.classList.add("selected");
+      }
+      toggleContainer.appendChild(btn);
+    });
+
+    // === 3) OURS Container ===
+    const oursContainer = document.createElement("div");
+    oursContainer.className = "image-container";
+    const oursLabel = document.createElement("div");
+    oursLabel.className = "image-label";
+    oursLabel.textContent = "MonetGPT (ours)";
+    const oursImg = document.createElement("img");
+    // oursImg.src = `./data/comparison/${index}/ours.png`;
+    oursImg.src = `./data/comparison/${index}/ours.jpg`;
+    oursImg.alt = `Ours ${index}`;
+    oursImg.className = "comparison-img";
+    oursContainer.appendChild(oursLabel);
+    oursContainer.appendChild(oursImg);
+
+
+    // Assemble columns (now 4)
+    imagesContainer.appendChild(sourceContainer);
+    imagesContainer.appendChild(methodContainer);
+    imagesContainer.appendChild(oursContainer);
+    // imagesContainer.appendChild(reasoningContainer); // Add reasoning column
+
+    // Assemble the row
+    rowWrapper.appendChild(toggleContainer);
+    rowWrapper.appendChild(imagesContainer);
+
+    // === REASONING SECTION (Moved Below) ===
+    const reasoningContainer = document.createElement("div");
+    // Assign a NEW class for layout control
+    reasoningContainer.className = "reasoning-section-below"; // << CHANGED class name
+
+    const reasoningLabel = document.createElement("div");
+    reasoningLabel.className = "image-label"; // Can reuse label style
+    reasoningLabel.textContent = "MonetGPT Reasoning";
+    const reasoningContent = document.createElement("div");
+    reasoningContent.className = "reasoning-text"; // Keep existing class for text styling
+
+    // Inside createComparisonRow function:
+
+    const markdownText = typeof reasoningData !== 'undefined' && reasoningData[index] ? reasoningData[index] : "_No reasoning available for this example_";
+
+    // MODIFY THE IF CONDITION AND THE CALL:
+    // Check if 'marked' is an object and has a 'parse' function
+    if (typeof marked === 'object' && typeof marked.parse === 'function') {
+        console.log(`Index ${index}: marked.parse found, parsing...`); // Optional log
+        try {
+            // Call the parse method on the marked object
+            reasoningContent.innerHTML = marked.parse(markdownText); // Correct call
+        } catch (e) {
+            console.error(`Index ${index}: Error during marked.parse:`, e);
+            reasoningContent.textContent = "Error rendering reasoning."; // Error fallback
+        }
+    } else {
+        // Log why it failed more specifically
+        console.error(`Index ${index}: marked.parse function NOT found. Fallback. typeof marked: ${typeof marked}, typeof marked.parse: ${typeof marked?.parse}`);
+        reasoningContent.innerHTML = `<pre>${markdownText}</pre>`; // Fallback remains
+    }
+    // End of modification
+
+    reasoningContainer.appendChild(reasoningLabel);
+    reasoningContainer.appendChild(reasoningContent);
+
+    // Append the whole reasoning section to the main row wrapper
+    rowWrapper.appendChild(reasoningContainer); // << ADDED this line here
+
+    return rowWrapper;
+  }
+
+
+  /**
+   * Show the first N rows on page load
+   */
+  function loadInitialRows() {
+    const comparisonSection = document.getElementById("comparison-section");
+    comparisonSection.innerHTML = ''; // Clear previous content if any
+
+    const numToLoad = Math.min(initialLoad, comparisonCount);
+    for (let i = 1; i <= numToLoad; i++) {
+      comparisonSection.appendChild(createComparisonRow(i));
+    }
+    itemsLoaded = numToLoad;
+
+    const loadMoreBtn = document.getElementById("load-more-btn");
+    if (itemsLoaded >= comparisonCount) {
+        if (loadMoreBtn) loadMoreBtn.style.display = "none";
+    } else {
+        if (loadMoreBtn) loadMoreBtn.style.display = "inline-block"; // Ensure it's visible if needed
+    }
+  }
+
+
+  /**
+   * Load the remaining rows
+   */
+  function loadMoreRows() {
+    const comparisonSection = document.getElementById("comparison-section");
+    const loadMoreBtn = document.getElementById("load-more-btn");
+
+    // Load from itemsLoaded+1 up to comparisonCount
+    for (let i = itemsLoaded + 1; i <= itemsLoaded + 10; i++) {
+      comparisonSection.appendChild(createComparisonRow(i));
+    }
+    itemsLoaded = itemsLoaded+10;
+
+    // Hide the button once all are loaded
+    if (itemsLoaded>=comparisonCount) loadMoreBtn.style.display = "none";
+  }
+
+
+  // Setup event listeners on DOMContentLoaded
+  window.addEventListener("load", () => {
+  // Load the first 10
+  loadInitialRows();
+
+  // Wire up the "Load More" button
+  const loadMoreBtn = document.getElementById("load-more-btn");
+  if (loadMoreBtn) {
+      loadMoreBtn.addEventListener("click", loadMoreRows);
+  } else {
+      console.warn("Load more button not found for comparison section.");
+  }
+});
+</script>
+
+<style>
+/* Container for each comparison row */
+.comparison-row {
+  max-width: 1400px; /* Adjusted max-width for 4 columns */
+  margin: 4rem auto;
+}
+
+.comparison-row h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem; /* Slightly smaller title */
+  color: #333;
+}
+
+/* Toggle container */
+.method-toggle {
+  text-align: center;
+  margin-bottom: 1.5rem; /* Increased spacing */
+}
+
+.method-toggle button {
+  margin: 0 0.5rem;
+  padding: 0.7rem 1.4rem; /* Slightly larger buttons */
+  font-size: 0.95rem; /* Slightly larger font */
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer; /* Ensure cursor indicates clickability */
+}
+
+.method-toggle button:hover {
+  background-color: #f0f0f0;
+  border-color: #bbb;
+}
+
+/* Highlight the clicked/selected button */
+.method-toggle button.selected {
+  background-color: #e0f0ff; /* Lighter blue highlight */
+  border-color: #99ccff; /* Softer blue border */
+  color: #003366; /* Darker blue text */
+  font-weight: 600;
+}
+
+/* Images container (Original 3 columns - kept for potential other uses, but not used by default now) */
+.comparison-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem; /* Increased gap */
+  align-items: start; /* Top-align items */
+}
+
+/* Images container (New 4 columns for Source | Method | Ours | Reasoning) */
+.comparison-images-four {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equally spaced columns */
+  gap: 1.5rem; /* Consistent gap */
+  align-items: start; /* Top-align all cells */
+}
+
+/* Each comparison image, scaled to fit without cropping */
+.comparison-row {
+  max-width: 1400px;
+  margin: 2rem auto;
+  background-color: #fdfdfd; /* RESTORED */
+  border: 1px solid #ddd;    /* RESTORED */
+  border-radius: 8px;      /* RESTORED */
+  padding: 1.5rem;         /* RESTORED */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* RESTORED */
+}
+
+/* Hover effect */
+.comparison-img {
+  width: 100%;
+  height: auto; /* Allows height to be intrinsic */
+  /* max-height: 300px; */ /* REMOVED */
+  object-fit: contain; /* Keeps aspect ratio */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  /* background-color is already removed */
+}
+
+/* Fade animations for the middle image when toggling methods */
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+/* Container for image + label */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image-label {
+  font-weight: bold;
+  margin-bottom: 0.75rem; /* Increased spacing */
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.reasoning-section-below {
+  width: 90%; /* Occupy 80% of the parent (.comparison-row) width */
+  margin: 1.5rem auto 0 auto; /* Add margin above, center horizontally */
+  /* The label and text box inside will be aligned based on their own styles */
+  /* We can add text-align: center; if we want the label centered */
+   text-align: center;
+}
+
+/* Container for reasoning text */
+.reasoning-text {
+    background: #f7f7f9;
+    padding: 1rem;
+    border: 1px solid #e1e1e8;
+    border-radius: 6px;
+    max-height: 220px; /* Scrollable */
+    overflow-y: auto; /* Scrollable */
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #333;
+    text-align: left; /* Keep text left-aligned for readability */
+    width: 100%; /* Fill the .reasoning-section-below container */
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    /* margin: 0 auto; */ /* Optional: centers the box if parent is text-align: center */
+                       /* Let's keep it full width of the 80% parent for now */
+}
+
+/* Styling for generated Markdown elements inside the reasoning box */
+.reasoning-text p {
+  margin-top: 0;
+  margin-bottom: 0.75em; /* Space between paragraphs */
+  line-height: 1.5; /* Ensure consistent line height */
+}
+.reasoning-text p:last-child {
+  margin-bottom: 0; /* No space after the last paragraph */
+}
+
+.reasoning-text h1,
+.reasoning-text h2,
+.reasoning-text h3,
+.reasoning-text h4,
+.reasoning-text h5,
+.reasoning-text h6 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 600; /* Make headings bolder */
+  line-height: 1.3;
+}
+/* Adjust heading sizes if needed */
+.reasoning-text h1 { font-size: 1.2em; }
+.reasoning-text h2 { font-size: 1.1em; }
+.reasoning-text h3 { font-size: 1.0em; }
+
+
+.reasoning-text ul,
+.reasoning-text ol {
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
+  padding-left: 1.8em; /* Indent lists */
+}
+
+.reasoning-text li {
+  margin-bottom: 0.3em; /* Space between list items */
+}
+
+.reasoning-text strong {
+    font-weight: 600; /* Ensure bold is sufficiently distinct */
+}
+
+.reasoning-text em {
+    font-style: italic; /* Ensure italics */
+}
+
+.reasoning-text code {
+    background-color: #eee; /* Style for inline code */
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.reasoning-text pre {
+    background-color: #eee; /* Style for code blocks */
+    padding: 0.8em;
+    border-radius: 4px;
+    overflow-x: auto; /* Scroll horizontally if needed */
+    font-family: monospace;
+    font-size: 0.9em;
+}
+ .reasoning-text pre code {
+     padding: 0; /* Reset padding for code inside pre */
+     background-color: transparent; /* Reset background */
+ }
+
+/* Ensure text inside reasoning wraps */
+.reasoning-text p,
+.reasoning-text span,
+.reasoning-text div,
+.reasoning-text { /* Apply directly too */
+  word-wrap: break-word;       /* break long words if needed */
+  white-space: pre-wrap;      /* Respect whitespace and newlines in the source data */
+}
+
+
+/* Styles from the original 'card' section - kept in case they are used elsewhere, but cleaned up */
+#grid-container {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+  gap: 20px !important;
+  margin: 20px !important;
+}
+
+/* New Section: Text on Left, Image on Right */
+.text-image-section {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Aligns items vertically in the center */
+  gap: 0.5rem; /* Space between text and image columns */
+  padding: 2rem 0; /* Padding above and below the section */
+  margin-bottom: 2rem; /* Space below this section */
+  background-color: #f9f9f9; /* A light background for the section */
+  border-radius: 8px; /* Slightly rounded corners */
+  padding: 1.5rem; /* Inner padding for the section */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* A subtle shadow */
+}
+
+.text-image-section .text-content {
+  flex: 1; /* Allows the text content to take up available space */
+  padding-right: 2rem; /* Adds some space to the right of the text, before the image */
+}
+
+.text-image-section .text-content h2 {
+  font-size: 2rem; /* Adjust title size as needed */
+  color: #333;
+  margin-bottom: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-image-section .text-content p {
+  font-size: 1rem; /* Adjust paragraph text size */
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.text-image-section .image-content {
+  flex: 1; /* Allows the image content to take up available space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-image-section .image-content img {
+  max-width: 100%; /* Ensures image is responsive and doesn't overflow */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
+}
+
+/* Optional: Style for a Call-to-Action button */
+.cta-button {
+  display: inline-block;
+  background-color: #007bff; /* A nice blue, change as you like */
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.cta-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .text-image-section {
+    flex-direction: column; /* Stack text and image vertically */
+    padding: 1.5rem;
+  }
+
+  .text-image-section .text-content {
+    padding-right: 0; /* Remove right padding when stacked */
+    margin-bottom: 1.5rem; /* Add space below text when stacked */
+  }
+}
+
+.card {
+  background-color: #fff !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+  text-align: center !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  cursor: pointer !important;
+  transition: transform 0.3s ease !important;
+  width: 100% !important;
+}
+.card-inner { display: flex; flex-direction: column; width: 100% !important; }
+.card-front, .card-back { width: 100% !important; margin: 0 auto; display: flex; flex-direction: column; align-items: center; padding: 10px; }
+.card img { width: 100% !important; height: auto !important; object-fit: contain !important; display: block !important; }
+.card-back { display: none !important; }
+.card.flipped .card-front { display: none !important; }
+.card.flipped .card-back { display: flex !important; }
+.card-back p { margin: 0; padding: 10px; }
+
+/* Redundant selected style removed as method-toggle button.selected handles it */
+/* Redundant reasoning-card style removed as .reasoning-text handles it */
+
+</style>
+</head>
+
+<body>
+  <div class="content">
+    <h2>
+      <img src="logo.webp" alt="MonetGPT Logo" style="height: 80px; vertical-align: middle; margin-right: 10px;">
+      <strong style="font-size: calc(0.6rem + 1vw);"><b>MonetGPT: Solving Puzzles Enhances MLLMs' Image Retouching Skills</b></strong>
+    </h2>
+    <h3><center><b>SIGGRAPH 2025 [Journal Track]</b></center></h3>
+    <div style="text-align: center; margin-bottom: 2em;"> <div style="margin-bottom: 0.5em; line-height: 1.5;">
+      <a href="https://niladridutt.com/" target="_blank" style="font-size: 1.1em; font-weight: 500; margin: 0 0.1em;">Niladri Shekhar Dutt</a><sup style="font-size: 0.8em;">1</sup>,  
+      <a href="https://www.duygu-ceylan.com/" target="_blank" style="font-size: 1.1em; font-weight: 500; margin: 0 0.1em;">Duygu Ceylan</a><sup style="font-size: 0.8em;">2</sup>,  
+      <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank" style="font-size: 1.1em; font-weight: 500; margin: 0 0.1em;">Niloy J. Mitra</a><sup style="font-size: 0.8em;">1, 2</sup>
+  </div>
+
+  <div style="margin-bottom: 1.5em; line-height: 1.4;">
+      <p style="display: inline; font-size: 1.1em; margin: 0 0.3em; color: #000000;">
+          <sup style="font-size: 0.8em;">1</sup>University College London
+      </p>
+      <p style="display: inline; font-size: 1.2em; margin: 0 0.3em; color: #000000;">
+          <sup style="font-size: 0.8em;">2</sup>Adobe Research
+      </p>
+  </div>
+
+  <div class="external-link">
+      <a class="btn" href="" role="button" target="_blank">
+          <i class="ai ai-arxiv"></i> Arxiv
+      </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="btn" href="" role="button" target="_blank">
+          <i class="fa fa-file-pdf"></i> Paper
+      </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="btn" href="https://github.com/niladridutt/monetGPT" role="button" target="_blank">
+          <i class="fa-brands fa-github"></i> Code (coming soon)
+      </a>
+      <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="btn btn-large btn-light" href="https://youtu.be/zEwmGMRw7jo" role="button" target="_blank" disabled>
+          <i class="fa-brands fa-youtube"></i> Video
+      </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+      <!-- <a class="btn btn-large btn-light" href="assets/CVPR_poster.pdf" role="button" target="_blank" disabled>
+          <i class="fa-solid fa-person-chalkboard"></i> Poster
+      </a> -->
+  </div>
+
+</div>
+</div>
+
+  </div>
+
+
+<div class="content">
+  <img class="summary-img" src="./data/teaser.jpg" style="width:100%;"> <br>
+  <p>MonetGPT is an image operation-aware multimodal large language model (MLLM), that provides automatic suggestions for image retouching.
+    Given a photograph (left), MonetGPT analyzes it to identify a set of issues and possible adjustments to fix them. The solution steps are then translated to a set
+    of procedural operations, along with respective parameter settings, drawing from a given library of operations, which occurs in three stages. </p>
+
+  <h2 style="text-align:center;">Abstract</h2>
+  <p>Retouching is an essential task in post-manipulation of raw photographs.
+    Generative editing, guided by text or stokes, provides a new tool accessible
+    to users but can easily change the identity of the original objects in unaccept-
+    able and unpredictable ways. In contrast, although traditional procedural
+    edits, as commonly supported by photoediting tools (e.g., Gimp, Lightroom),
+    are conservative, they are still preferred by professionals. Unfortunately,
+    pro-quality retouching involves a multitude of individual procedural editing
+    operations and are difficult to plan for most novices. In this paper, we ask if a
+    multimodal large language model (MLLM) can be taught to critique raw pho-
+    tographs, suggest suitable remedies, and finally realize them with a given set
+    of pre-authored procedural image operations. We demonstrate that MLLMs
+    can be first made aware of the underlying image processing operations,
+    by training them to solve specially-designed visual puzzles. Subsequently,
+    such an operation-aware MLLM can both plan and execute edit sequences.
+    To facilitate training, given a set of expert edited photos, we synthesize a
+    reasoning dataset by procedurally manipulating the expert edits. We use
+    this dataset to ground the LLM on the visual adjustments. The proposed
+    retouching operations are, by construction, understandable by the users,
+    preserve object details and resolution, and can be optionally overridden. We
+    evaluate our setup on a variety of test examples and show advantages, in
+    terms of explainability and identity preservation, over existing generative
+    and other procedural alternatives. Code and models will be released upon
+    acceptance.</div>
+
+
+
+  <div class="content">
+    <h2 style="text-align:center;">Overview</h2>
+    <p>MonetGPT is a novel framework that leverages MLLMs for advanced reasoning to facilitate procedural image retouching. Pretrained MLLMs lack the domain knowledge required to comprehend underlying image retouching operations and their associated
+      adjustment values. To address this limitation, we design a set of
+      puzzles specifically targeted at bridging these knowledge gaps. We
+      discover that by solving these puzzles, the MLLM can become an
+      agent with expert-level domain knowledge, capable of retouching
+      images effectively. Once trained, the MLLM can critique photographs, propose fixes,
+      and suggest sequences of retouching operations with corresponding parameters. These suggestions can then be translated into executable calls using our function library of adjustment operations. </p>
+      <p>Our framework operates in three stages where it makes adjustments targeted at (i) Lighting, (ii) Saturation and White Balance, and (iii) Selective Color Adjustments. After each stage, the intermediate retouched image is fed back to the MLLM to generate a plan for the next stage. The GIF below shows an intermediate resultc after applying an operation using our procedural library.</p>
+    <img src="data/gifs/a1329.gif" style="width:100%;">
+  </div>
+
+
+  <div class="content">
+    <h2 style="text-align:center;">Injecting domain knowledge into MLLMs via visual puzzles</h2>
+    <p>We construct our puzzles using expert-edited images as the target edits; source images are then generated by applying operations from our library, guided by the assumption that modifications to an expert-edited image generally yield a less optimal result. A key recipe in our puzzles is using a pretrained MLLM to additionally generate a reasoning solution corresponding to each puzzle, <i>rather than merely predicting the adjustments, and leveraging this as a pathway to regress the final adjustment values</i>. While MLLMs may struggle to directly predict adjustments, we find they excel at explaining the impact of these adjustments when the ground truth is provided (i.e., the actual operations, values, and before/after images for visual differences). This allows us to leverage pretrained MLLMs to reason about each edit operation by explaining <i>why</i> a particular operation was used and <i>what</i> problem it fixes by grounding it on the actual adjustments and linking this reasoning to the visual changes to prevent hallucination. We use this to build a dataset to fine-tune an MLLM to <i>acquire this reasoning when the actual adjustments are not supplied</i>.</p>
+    <div class="text-image-section">
+      <div class="text-content">
+        <h3>Puzzle A: Gaining Understanding of Individual Operations</h3>
+        <p>The first puzzle focuses on teaching the MLLM to visually comprehend the effect of specific image retouching operations and their corresponding adjustment levels. This is achieved by first applying a randomly selected operation <i>O</i> with an associated adjustment value <i>V</i> from a predefined library to a source image I<sub>S</sub>, resulting in an edited image I<sub>E</sub>. We then query a pretrained MLLM with the ground truth operation and value allows it to generate detailed textual reasoning <i>R</i> that accurately explains how (<i>O</i>,<i>V</i>) transforms I<sub>S</sub> into I<sub>E</sub>. This elicited reasoning is then leveraged in a supervised training phase to enable the MLLM to identify the operation <i>O</i> and regress the adjustment value <i>V</i> (without the ground truth) along with reasoning. By prompting the MLLM to articulate the visual changes, it learns to encode these nuanced visual effects within its textual representation.</p>
+      </div>
+      <div class="image-content">
+        <img src="data/figures/puzzle_one.png">
+      </div>
+    </div>
+    <div class="text-image-section">
+      <div class="text-content">
+        <h3>Puzzle B: Understanding Image Aesthetics</h3>
+        <p>The second puzzle teaches the MLLM to recognize optimal image quality. It involves presenting the MLLM with an ideal expert-edited image alongside several randomly adjusted versions of it. The MLLM's task is to first arrange all these images based on the strength of the applied adjustment. Then, it must identify the optimal image from the set, explaining its choice, and also determine the necessary correction to transform one of the adjusted versions back to the ideal state. By solving this, the MLLM learns the visual qualities of an optimally adjusted image and how to estimate the required changes to reach that state, which is vital for complex editing tasks.</p>      </div>
+      <div class="image-content">
+        <img src="data/figures/puzzle_two.png">
+      </div>
+    </div>
+    <div class="text-image-section">
+      <div class="text-content">
+        <h3>Puzzle C: Generating a Plan for Image Retouching</h3>
+        <p>MLLMs typically struggle with the abstract and subjective nature of image retouching, finding it hard to devise comprehensive editing plans with multiple, precise adjustments. To bridge this gap, our third puzzle trains the MLLM to transform a lower-quality source image into an expertly retouched version by predicting a sequence of suitable operations and their exact values. We programmatically generate these lower-quality source images from expert images by applying a sequence of adjustments, assuming that reversing these adjustments restores the expert-edited image. This reversed sequence forms the target plan. As in previous puzzles, we then query a pretrained MLLM to justify each operation and value by grounding it on the actual adjustments and linking it to visual changes in both the images. </p>
+        <p>For each proposed step, the MLLM learns to generate a structured reasoning triplet, detailing the <strong>Adjustment</strong> (operation and its degree), the visual <strong>Issue</strong> being addressed, and the proposed <strong>Solution</strong>. During training, using <i>only the source image</i>, the MLLM must output the complete plan to reach the expert target. A critical skill the MLLM also develops is recognizing when no further edits are needed for a particular stage, thereby preventing unnecessary alterations.</p>
+</div>      
+<div class="image-content">
+        <img src="data/figures/puzzle_three.png">
+      </div>
+    </div>
+    <p><center>For more details refer to our paper.</center></p>
+  </div>
+</div>
+
+<div class="content">
+  <h2 style="text-align:center;">Evaluation</h2>
+  <p>We quantitaively evaluate our method on the Adobe5k dataset as well as conduct user studies by expert and novice users as quantitaive evaluations do not fully capture the subjective nature of image enhancement. Our evaluations show that MonetGPT outperforms open-source alternatives and performs comparably to Google Photos AutoEnhance (a closed-source solution).</p>
+  <img src="data/figures/evaluation.png" style="width:100%;">
+</div>
+
+<div class="content">
+  <h2 style="text-align:center;">Results</h2>
+  <p style="text-align:center;">
+    Toggle among various methods to compare them with ours side-by-side. MonetGPT provides detailed explanations for its generated plans.
+  </p>
+  <div id="comparison-section"></div>
+  <div style="text-align: center; margin-top: 1rem;">
+    <button id="load-more-btn" style="padding: 0.6rem 1.2rem; font-size: 1rem; cursor: pointer;">
+      Load More
+    </button>
+  </div>
+</div>
+
+<div class="content">
+  <h2 style="text-align:center;">Personalized Editing</h2>
+  <p>[Left image]: MonetGPT's inherent flexibility—enabled by combining MLLMs with a procedural design—allows it to generalize effectively to diverse stylistic requests specified by users via natural-language (e.g., requesting increased vibrancy or softer tones), making the model adaptable to individual preferences. Our framework can produce different edit plans based on style tags, here we show retro, balanced, and vibrant producing different edit plans, resulting different retouched results. 
+  </p>
+  <P>[Right image] The autoregressive nature of MLLMs, combined with our staged editing pipeline, allows the user to edit the plan (P) at any stage. The refined plan is used to determine subsequent parameter values. Moreover, the edited plan P' enables the MLLM to generate plans for subsequent stages that are consistent with the edits. The right-bottom image (P''*) shows a result following further modifications to the second and 
+    third stages,after the first stage was modified to generate P".</p>
+  <center><img src="data/figures/personalized.jpg" style="width:80%;"></center>
+</div>
+
+
+<!-- <div class="content">
+  <h2 style="text-align:center;">Library</h2>
+  <p style="text-align:center;">
+    Our Python library supports the following operations:
+  </p>
+
+  <div style="margin: 20px auto; width: 80%;">
+    <h3 style="color: #4CAF50;">Exposure, Contrast & Tonal Range Adjustments</h3>
+    <ul style="list-style-type: square; padding-left: 20px;">
+      <li>Blacks</li>
+      <li>Contrast</li>
+      <li>Highlights</li>
+      <li>Shadows</li>
+      <li>Whites</li>
+      <li>Exposure</li>
+    </ul>
+
+    <h3 style="color: #2196F3;">White Balance & Global Saturation</h3>
+    <ul style="list-style-type: square; padding-left: 20px;">
+      <li>Temperature</li>
+      <li>Tint</li>
+      <li>Saturation</li>
+    </ul>
+
+    <h3 style="color: #FF5722;">Selective Color Adjustments</h3>
+    <ul style="list-style-type: square; padding-left: 20px;">
+      <li>HueAdjustmentAqua</li>
+      <li>HueAdjustmentBlue</li>
+      <li>HueAdjustmentGreen</li>
+      <li>HueAdjustmentYellow</li>
+      <li>HueAdjustmentRed</li>
+      <li>HueAdjustmentMagenta</li>
+      <li>HueAdjustmentOrange</li>
+      <li>HueAdjustmentPurple</li>
+      <li>LuminanceAdjustmentAqua</li>
+      <li>LuminanceAdjustmentBlue</li>
+      <li>LuminanceAdjustmentGreen</li>
+      <li>LuminanceAdjustmentYellow</li>
+      <li>LuminanceAdjustmentRed</li>
+      <li>LuminanceAdjustmentOrange</li>
+      <li>LuminanceAdjustmentMagenta</li>
+      <li>LuminanceAdjustmentPurple</li>
+      <li>SaturationAdjustmentAqua</li>
+      <li>SaturationAdjustmentBlue</li>
+      <li>SaturationAdjustmentGreen</li>
+      <li>SaturationAdjustmentYellow</li>
+      <li>SaturationAdjustmentMagenta</li>
+      <li>SaturationAdjustmentOrange</li>
+      <li>SaturationAdjustmentPurple</li>
+      <li>SaturationAdjustmentRed</li>
+    </ul>
+  </div>
+</div> -->
+
+<!-- <div class="content">
+  <h2>BibTex</h2>
+  <code> @article{ruiz2022dreambooth,<br>
+  &nbsp;&nbsp;title={DreamBooth: Fine Tuning Text-to-image Diffusion Models for Subject-Driven Generation},<br>
+  &nbsp;&nbsp;author={Ruiz, Nataniel and Li, Yuanzhen and Jampani, Varun and Pritch, Yael and Rubinstein, Michael and Aberman, Kfir},<br>
+  &nbsp;&nbsp;booktitle={arXiv preprint arxiv:2208.12242},<br>
+  &nbsp;&nbsp;year={2022}<br>
+  } </code> 
+</div> -->
+<div class="content" id="acknowledgements">
+  <p><strong>Acknowledgements</strong>:
+    We thank Rishabh Kabra, Ruchira Ray, Tobias Ritschel, Chen Liu, Sylvain Paris, and Morten Hannemose for their comments and suggestions. Niloy was supported by gifts from Adobe and UCL AI
+Centre.  </p>
+</div>
+
+<br><br>
+
+</html>
+
+<!-- dreambooth -->

@@ -1,0 +1,80 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring harsh sunlight, with slightly overexposed highlights and somewhat underexposed shadows, resulting in a slightly flat and low-contrast appearance. Since it captures a historical building with lush greenery, the editing should emphasize balancing the exposure, recovering details in both highlights and shadows, and adding a touch of contrast to enhance the visual appeal and create a more dynamic and engaging image.
+
+**Adjustment:** The blacks need to be moderately reduced.
+**Issue:** In the original image, the black tones, particularly in the shadows of the foliage and the darker areas of the building, appear somewhat lifted and not deep enough. This lack of deep blacks contributes to a slightly washed-out look and reduces the overall depth and richness of the image.
+**Solution:** By moderately reducing the blacks, the darker areas of the image will become richer and more defined. The shadows in the foliage and the building's darker regions will gain depth, enhancing the overall contrast and adding a sense of grounding to the scene.
+
+**Adjustment:** The contrast needs to be very slightly reduced.
+**Issue:** The original image exhibits a slightly harsh contrast, which makes the transitions between highlights and shadows somewhat abrupt. This can be seen in the way the bright sky contrasts with the darker building and foliage, potentially losing subtle tonal gradations.
+**Solution:** By very slightly reducing the contrast, the tonal transitions in the image will become smoother and more refined. This will soften the overall look, making the image appear less harsh and more balanced in its tonal range, while still maintaining sufficient separation between tones.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, especially in the sky and on the lighter parts of the building, appear slightly muted and lack a certain brilliance. While not severely blown out, they could benefit from a subtle lift to enhance the overall brightness and airiness of the scene.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, such as the sky and the lighter parts of the building, will gain a subtle lift in brightness. This will make these areas appear more luminous and contribute to a slightly brighter and more open feel in the overall image.
+
+**Adjustment:** The shadows need to be mildly increased.
+**Issue:** In the original image, the shadows, particularly in the foliage in the foreground and under the eaves of the building, are somewhat underexposed and lack detail. This makes these areas appear dark and less defined, losing texture and information within the shadows.
+**Solution:** By mildly increasing the shadows, the details in the darker areas of the image will be recovered. The foliage in the foreground and the shadowed areas under the building will become more visible, revealing texture and detail that was previously lost in the darkness, thus improving the overall balance of light and shadow.
+
+**Adjustment:** The whites need to be slightly increased.
+**Issue:** In the original image, the white tones, particularly in the sky and the white parts of the building, appear slightly dull and not fully realized. They lack a certain crispness and brilliance, preventing the image from achieving its full potential in terms of brightness and clarity in the lightest areas.
+**Solution:** By slightly increasing the whites, the brightest areas of the image, such as the sky and the white parts of the building, will become brighter and more pronounced. This will add a touch of crispness and clarity to the highlights, enhancing the overall brightness and making the image feel more vibrant and polished.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image appears to be marginally underexposed overall, resulting in a slightly darker and less vibrant appearance. This slight underexposure affects the overall brightness and can make the scene feel less lively and energetic.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be lifted. This will make the entire scene appear brighter and more vibrant, enhancing the overall visual appeal and making the image feel more lively and energetic without overexposing any specific areas. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": -40, \"Contrast\": -12, \"Highlights\": 12, \"Shadows\": 25, \"Whites\": 14, \"Exposure\": 1}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight green cast and under-saturated colors, which makes the scene look somewhat muted and less engaging. Since it depicts a historical building with lush greenery, the editing goal is to refine the color balance to achieve a more vibrant and naturally appealing look. To accomplish this, adjustments like Tint and Saturation will help correct the green tint and enhance the photo's overall color intensity, ensuring the final image conveys a fresh and lively feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The tint needs to be slightly shifted towards magenta.
+**Issue:** The original image exhibits a subtle green cast, particularly noticeable in the sky and the stone structure of the building. This green tint makes the overall color balance appear slightly unnatural and less appealing, detracting from the natural warmth of the scene.
+**Solution:** By slightly shifting the tint towards magenta, the green cast will be neutralized. The edited image will have a more balanced color palette, resulting in a more natural and pleasing representation of the scene, especially in the sky and the building's stone.
+
+**Adjustment:** The global saturation needs to be mildly increased.
+**Issue:** The original image appears somewhat desaturated, with colors lacking vibrancy and depth. The green foliage in the foreground and the colors of the building's stone appear muted, making the scene feel less lively and impactful.
+**Solution:** By mildly increasing the global saturation, the colors throughout the image will become richer and more vibrant. The greenery will appear more lush and lively, and the stone structure will gain more color depth, enhancing the overall visual appeal and making the scene more engaging. 
+
+The parameters for **[Temperature]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Tint\": -17, \"Saturation\": 30}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant greens in the foliage, which makes the overall scene appear a bit less lively and less visually engaging. Since it depicts a historical building with lush greenery, the editing should target the green tones to enhance the vibrancy and natural appearance of the foliage without drastically altering the overall color balance of the scene. To achieve this, adjustments like increasing the saturation of greens and slightly shifting their hue towards a more natural green will help create the intended effect of a more vibrant and visually appealing image with enhanced natural colors.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the greens needs to be mildly increased.
+**Issue:** In the original image, the green foliage, particularly in the foreground and background, appears somewhat desaturated and lacks vibrancy. This makes the greenery look less lush and less visually appealing, reducing the overall liveliness of the scene.
+**Solution:** By mildly increasing the saturation of the greens, the foliage in the edited image will appear more vibrant and lush. This will enhance the visual appeal of the greenery, making it more prominent and contributing to a more lively and engaging overall image.
+
+**Adjustment:** The hue of the greens needs to be very slightly adjusted towards a more natural green.
+**Issue:** In the original image, the green tones in the foliage might lean slightly towards a less natural or slightly yellowish hue. This subtle hue issue can make the greens appear slightly less realistic and less harmonious with the other colors in the scene.
+**Solution:** By very slightly adjusting the hue of the greens towards a more natural green, the foliage in the edited image will exhibit a more realistic and pleasing green tone. This subtle shift will refine the green hues, making them appear more natural and harmonious within the overall color palette of the image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentGreen\": 29, \"HueAdjustmentGreen\": -1}"
+```
+<|im_end|>

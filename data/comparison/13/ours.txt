@@ -1,0 +1,84 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken during daytime, featuring soft, diffused lighting, with slightly underexposed shadows and a general lack of contrast. Since it captures a portrait of a child, the editing should emphasize brightening the image, enhancing contrast, and bringing out details in shadows to create a more vibrant and engaging portrait that highlights the subject.
+
+**Adjustment:** The blacks need to be mildly increased.
+**Issue:** In the original image, the black tones, particularly in the background and within the child's hair, are too deep and dense. This makes the image appear somewhat flat and obscures details in the darker areas, contributing to an overall lack of depth.
+**Solution:** By mildly increasing the blacks, the darkest tones will be lifted, revealing more detail in the shadowed areas of the background and hair. The edited image will have a more open shadow region, preventing the blacks from feeling too heavy and improving the overall tonal balance.
+
+**Adjustment:** The contrast needs to be slightly increased.
+**Issue:** The original image appears somewhat flat and lacks visual punch. The midtones and highlights are not sufficiently separated from the shadows, resulting in a less dynamic and engaging image.
+**Solution:** By slightly increasing the contrast, the separation between the lighter and darker tones will be enhanced. The edited image will have a greater sense of depth and visual interest, with a more pronounced difference between highlights and shadows, making the subject stand out more.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, especially on the child's forehead and cheek, are slightly muted and lack a certain brightness. This contributes to the overall slightly flat appearance of the image.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, such as the forehead and cheek, will gain a subtle lift in brightness. The edited image will have slightly more luminous highlights, contributing to a more balanced and naturally bright appearance without causing overexposure.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** The shadows in the original image, particularly under the child's chin and in the background, are a bit too dark and obscure some details. This makes the image feel slightly underexposed in these areas and reduces the visibility of details in the darker regions.
+**Solution:** By very slightly increasing the shadows, the darker areas of the image will be gently brightened. The edited image will reveal more detail in the shadowed areas under the chin and in the background, making these regions more visible and contributing to a more balanced exposure across the image.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image, such as in the child's shirt and the lighter parts of the background, are not fully realized and appear slightly subdued. This contributes to the overall slightly muted and less vibrant feel of the image.
+**Solution:** By very slightly increasing the whites, the brightest tones in the image will be subtly enhanced. The edited image will have slightly brighter whites, making the white areas of the shirt and background appear cleaner and more defined, contributing to a more polished and refined final look.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, resulting in a somewhat dark and muted appearance. This affects the overall brightness and vibrancy of the image, making it less visually appealing.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. The edited image will be brighter and more vibrant, correcting the slight underexposure and making the subject and the scene more visually engaging and lively. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 25, \"Contrast\": 13, \"Highlights\": 1, \"Shadows\": 11, \"Whites\": 1, \"Exposure\": 12}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the portrait look a bit flat and less engaging. Since it depicts a portrait of a child, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more lively and appealing feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The Temperature needs to be increased very slightly.
+**Issue:** In the original image, there is a subtle cool cast, evident in the slightly pale skin tones and the overall muted warmth of the scene. This coolness makes the image feel less inviting and slightly sterile.
+**Solution:** By very slightly increasing the temperature, the edited image will introduce a touch of warmth, counteracting the cool cast. This will result in more natural and healthier-looking skin tones and a more inviting overall atmosphere.
+
+**Adjustment:** The Tint needs to be increased very slightly.
+**Issue:** The original image exhibits a very subtle green tint, which is most noticeable in the neutral areas of the image, such as the white collar of the hoodie. This slight green cast can make the image appear slightly unbalanced in color.
+**Solution:** By very slightly increasing the tint towards magenta, the edited image will neutralize the subtle green cast. This adjustment will lead to a more balanced and neutral color rendition, particularly in the white areas, and improve the overall color harmony.
+
+**Adjustment:** The Saturation needs to be increased slightly.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. This is particularly noticeable in the background, which looks a bit dull, and in the child's skin, which appears less lively. The overall image lacks a certain visual pop and energy.
+**Solution:** By slightly increasing the saturation, the edited image will enhance the color intensity across the entire scene. The background will gain more depth and richness, and the child's skin tones will appear healthier and more vibrant, resulting in a more visually engaging and lively portrait. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Tint\": 1, \"Saturation\": 13}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted orange tones, particularly in the skin and background, which makes the overall image appear a bit less vibrant and warm. Since it depicts a portrait of a child, the editing should target the orange color range to enhance the warmth and vibrancy of the skin tones and background without drastically altering the overall color palette. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards red will help create the intended effect of a warmer and more inviting portrait with enhanced skin tones and a richer background.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be slightly increased.
+**Issue:** In the original image, the orange tones, especially noticeable in the child's skin and the background, appear somewhat muted and lack vibrancy. This desaturation makes the skin look slightly less lively and the overall image feel a bit less warm and inviting.
+**Solution:** By slightly increasing the saturation of the orange tones, the skin in the edited image will appear healthier and more vibrant. The background will also gain a touch of warmth, enhancing the overall inviting feel of the portrait.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly shifted towards red.
+**Issue:** In the original image, the orange tones, particularly in the skin, might lean slightly towards yellow, making the skin appear a touch less warm and potentially slightly less natural. This subtle yellow bias in the orange hues can detract from the overall warmth and healthiness of the skin tone.
+**Solution:** By very slightly shifting the hue of the orange tones towards red, the skin in the edited image will gain a warmer and more natural appearance. This subtle hue adjustment will refine the skin tones, making them appear healthier and more vibrant without appearing artificial. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 17, \"HueAdjustmentOrange\": -1}"
+```
+<|im_end|>

@@ -1,0 +1,80 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring soft sunlight glow, with slightly underexposed shadows and a general lack of contrast. Since it captures a desert landscape with two cars and a person, the editing should emphasize brightening the overall image, enhancing contrast to make the subjects stand out, and recovering details in both shadows and highlights to create a more visually engaging and balanced photograph.
+
+**Adjustment:** The blacks need to be mildly increased.
+**Issue:** In the original image, the black tones, particularly in the shadows under the cars and in the darker areas of the sand, appear somewhat dense and lack detail. This makes these areas look slightly muddy and less defined, reducing the overall clarity of the image.
+**Solution:** By mildly increasing the blacks, the shadow areas will become brighter, revealing more detail in the darker parts of the sand and under the cars. The edited image will have a more open shadow region, enhancing the texture and depth of the scene.
+
+**Adjustment:** The contrast needs to be slightly increased.
+**Issue:** The original image appears somewhat flat and lacks dynamic range. The separation between the lighter and darker tones is not pronounced enough, resulting in a less impactful and slightly dull visual experience.
+**Solution:** By slightly increasing the contrast, the difference between the highlights and shadows will be enhanced. The edited image will have a greater sense of depth and visual interest, making the subjects and the landscape stand out more effectively.
+
+**Adjustment:** The highlights need to be slightly increased.
+**Issue:** In the original image, the highlights, especially in the sky and on the lighter parts of the sand, appear somewhat muted and lack a certain brilliance. This contributes to the overall slightly flat appearance of the image and prevents the brighter areas from truly shining.
+**Solution:** By slightly increasing the highlights, the brighter areas of the image, such as the sky and the lighter sand, will gain a subtle lift in brightness. The edited image will have a slightly more luminous quality in the highlight regions, enhancing the overall brightness and airiness of the scene.
+
+**Adjustment:** The shadows need to be slightly increased.
+**Issue:** The shadows in the original image, particularly those cast by the cars and the person, are somewhat deep and obscure details within these areas. This makes the shadows appear heavy and reduces the visibility of textures and forms within these darker regions.
+**Solution:** By slightly increasing the shadows, the darker areas of the image will be brightened, revealing more detail in the shadows cast by the cars and the person. The edited image will have more open shadows, improving the visibility of textures and forms in these areas and creating a more balanced tonal range.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image, such as in the sky and the lightest parts of the sand, are not fully realized and appear slightly subdued. This contributes to the overall slightly muted and less vibrant feel of the image.
+**Solution:** By very slightly increasing the whites, the very brightest areas of the image will become a touch brighter. The edited image will have a subtle lift in the absolute brightest tones, enhancing the overall brightness and contributing to a slightly more airy and open feel without clipping the highlights.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than it could be. This slight underexposure reduces the overall brightness and vibrancy of the image, making it feel less lively and energetic.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be lifted. The edited image will be brighter and more vibrant, enhancing the overall visibility of all elements within the scene and creating a more energetic and inviting atmosphere. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 25, \"Contrast\": 17, \"Highlights\": 18, \"Shadows\": 16, \"Whites\": 1, \"Exposure\": 10}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight green cast and under-saturated colors, which makes the scene look a bit dull and lifeless. Since it depicts a desert landscape with a person and two cars, the editing goal is to refine the overall color balance to achieve a more vibrant and natural look. To accomplish this, adjustments like Tint and Saturation will help correct the green tint and enhance the photo's overall color intensity, ensuring the final image conveys a more lively and engaging feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The tint needs to be slightly shifted towards magenta.
+**Issue:** The original image exhibits a subtle green cast, most noticeably in the sand and the sky. This green tint makes the overall scene appear slightly unnatural and less appealing, detracting from the warmth expected in a desert environment.
+**Solution:** By slightly shifting the tint towards magenta, the green cast will be neutralized. The sand and sky will appear more neutral in color, and the overall image will have a more balanced and natural color representation, enhancing the warmth of the desert scene.
+
+**Adjustment:** The global saturation needs to be mildly increased.
+**Issue:** The original image appears somewhat desaturated, with colors lacking vibrancy and depth. The sand, the sky, and even the colors of the clothing and cars seem muted, resulting in a less dynamic and engaging image.
+**Solution:** By mildly increasing the global saturation, the colors throughout the image will become richer and more vibrant. The sand will appear more beige, the sky will gain depth, and the colors of the subjects will become more pronounced, resulting in a more visually appealing and lively photograph. 
+
+The parameters for **[Temperature]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Tint\": -13, \"Saturation\": 30}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly in the sky and sand, which makes the scene appear less warm and inviting. Since it depicts a desert landscape with a person and cars, the editing should target the orange color range to enhance the warmth and vibrancy of the scene without drastically altering the overall color balance. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards red will help create the intended effect of a warmer, more inviting, and visually appealing image.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be mildly increased.
+**Issue:** In the original image, the orange tones, especially in the sky and sand, appear somewhat desaturated and lack vibrancy. This makes the scene feel less warm and inviting, and the overall color palette feels slightly muted.
+**Solution:** By mildly increasing the saturation of the orange tones, the sky and sand in the edited image will appear more vibrant and richer in color. This will enhance the warmth of the scene and make it more visually appealing, contributing to a more inviting atmosphere.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly shifted towards red.
+**Issue:** In the original image, the orange tones in the sky and sand might lean slightly towards yellow, making them appear a bit less warm and potentially slightly less natural for a desert environment.
+**Solution:** By very slightly shifting the hue of the orange tones towards red, the orange colors in the sky and sand in the edited image will become warmer and richer. This subtle hue adjustment will enhance the overall warmth of the scene and create a more natural and inviting feel, particularly in the desert landscape. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 25, \"HueAdjustmentOrange\": -1}"
+```
+<|im_end|>

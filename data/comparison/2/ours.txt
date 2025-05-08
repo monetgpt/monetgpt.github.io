@@ -1,0 +1,80 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring soft twilight glow, with slightly underexposed shadows and a general lack of contrast. Since it captures a scene of the Louvre with people, the editing should emphasize brightening the overall image, enhancing contrast to make the building and subjects stand out, and balancing the tonal range to reveal details in both shadows and highlights, aiming for a more vibrant and visually engaging photograph.
+
+**Adjustment:** The blacks need to be very slightly increased.
+**Issue:** In the original image, the black tones, particularly in the shadows under the building and on the ground, appear somewhat dense and lack detail. This makes these areas look slightly muddy and less defined, reducing the overall clarity of the image.
+**Solution:** By very slightly increasing the blacks, the shadow areas will become brighter, revealing more detail in the darker parts of the building and the ground. The edited image will have a more open and less constricted feel in the shadows, improving the overall tonal balance.
+
+**Adjustment:** The contrast needs to be slightly increased.
+**Issue:** The original image appears somewhat flat and lacks visual depth. The separation between the lighter and darker areas is not pronounced enough, resulting in a less dynamic and slightly dull appearance overall.
+**Solution:** By slightly increasing the contrast, the difference between the highlights and shadows will be enhanced. The edited image will have a greater sense of depth and visual interest, making the building and the subjects stand out more distinctly from the background.
+
+**Adjustment:** The highlights need to be slightly increased.
+**Issue:** In the original image, the highlights, especially in the sky and on the lighter parts of the building, appear somewhat muted and lack vibrancy. This contributes to the overall slightly dull and less lively feel of the image.
+**Solution:** By slightly increasing the highlights, the brighter areas of the image, such as the sky and the lighter parts of the building, will become more luminous and vibrant. The edited image will have a brighter and more airy feel, enhancing the overall visual appeal.
+
+**Adjustment:** The shadows need to be slightly increased.
+**Issue:** The shadows in the original image, particularly those cast by the building and on the ground, are somewhat underexposed and obscure details. This makes these areas appear darker than necessary and reduces the visibility of textures and shapes within the shadows.
+**Solution:** By slightly increasing the shadows, the darker areas of the image will be brightened, revealing more detail within the shadows. The edited image will have more open shadows, making the textures of the ground and the details within the building's shadowed areas more visible and contributing to a more balanced exposure.
+
+**Adjustment:** The whites need to be slightly increased.
+**Issue:** The white tones in the original image, such as in the clouds and the white parts of the building, appear slightly subdued and not as bright as they could be. This contributes to the overall slightly muted and less bright appearance of the image.
+**Solution:** By slightly increasing the whites, the brightest areas of the image will become more pronounced and brighter. The edited image will have a more luminous quality, with the white elements appearing cleaner and more impactful, contributing to a brighter and more vibrant overall image.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than it could be. This slight underexposure reduces the overall brightness and vibrancy of the image, making it feel less lively and energetic.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. The edited image will be brighter and more vibrant, improving the visibility of all elements in the scene and creating a more visually appealing and energetic photograph. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 11, \"Contrast\": 15, \"Highlights\": 13, \"Shadows\": 18, \"Whites\": 14, \"Exposure\": 10}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene appear somewhat muted and less engaging. Since it depicts a cultural landmark with people, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more inviting and visually appealing atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The temperature needs to be very slightly increased.
+**Issue:** In the original image, there is a subtle cool cast, evident in the slightly bluish tint across the entire scene, particularly noticeable in the sky and the stone structures of the building. This cool tone makes the image feel a bit cold and less inviting, lacking the warmth expected in a daytime outdoor scene.
+**Solution:** By very slightly increasing the temperature, the cool cast will be neutralized, and the overall color balance will shift towards a warmer tone. The sky will appear less bluish, and the stone structures will gain a more natural, sun-kissed warmth, enhancing the overall pleasantness of the image.
+
+**Adjustment:** The saturation needs to be slightly increased.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. The red of the woman's jacket, the blue of the man's jeans, and the overall scene seem a bit flat and less visually engaging. This lack of saturation makes the image feel less dynamic and less impactful.
+**Solution:** By slightly increasing the saturation, the colors throughout the image will become more vibrant and pronounced. The red jacket will appear richer, the blue jeans will gain depth, and the entire scene will become more visually appealing and lively, enhancing the overall impact of the photograph. 
+
+The parameters for **[Tint]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Saturation\": 14}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly in the building and the sky, which makes the scene appear a bit less warm and inviting. Since it depicts a sunset scene with a building and a sky, the editing should target the orange color range to enhance the warmth and vibrancy of the sunset and the building without drastically altering the overall color balance. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards red will help create the intended effect of a warmer, more inviting, and slightly more vibrant sunset scene.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be mildly increased.
+**Issue:** In the original image, the orange tones, especially in the building and the sky, appear somewhat muted and lack vibrancy. This makes the sunset scene feel less warm and inviting, and the building's color less prominent.
+**Solution:** By mildly increasing the saturation of the orange tones, the building and the sky will gain a richer and more vibrant orange hue. This will enhance the warmth of the sunset and make the building stand out more, contributing to a more visually appealing and inviting image.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly shifted towards red.
+**Issue:** In the original image, the orange tones in the building and the sky lean slightly towards yellow, making them appear a bit less rich and warm. This subtle yellow cast in the orange tones can detract from the overall warmth of the sunset scene.
+**Solution:** By very slightly shifting the hue of the orange tones towards red, the orange colors in the building and sky will become warmer and richer. This subtle hue adjustment will enhance the sunset's warmth and create a more harmonious and visually pleasing color palette in the image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 34, \"HueAdjustmentOrange\": -1}"
+```
+<|im_end|>

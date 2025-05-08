@@ -1,0 +1,84 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring soft daylight, with slightly underexposed shadows and a general lack of contrast. Since it captures a portrait of a dog in an outdoor setting, the editing should emphasize brightening the overall image, enhancing contrast to make the subject stand out, and recovering details in the shadows to create a more vibrant and visually appealing photograph.
+
+**Adjustment:** The blacks need to be very slightly increased.
+**Issue:** In the original image, the black tones, particularly in the dog's fur and the darker areas of the background, appear somewhat dense and lack subtle detail. This makes these areas look slightly flat and less defined.
+**Solution:** By very slightly increasing the blacks, the darkest tones will be lifted, revealing more detail in the dog's fur and the background shadows. The edited image will have richer blacks with improved texture and depth in these areas.
+
+**Adjustment:** The contrast needs to be mildly increased.
+**Issue:** The original image appears somewhat flat and lacks visual punch. The tonal separation between the lighter and darker areas is not pronounced enough, resulting in a less dynamic and engaging image.
+**Solution:** By mildly increasing the contrast, the difference between the highlights and shadows will be enhanced. The edited image will have a greater sense of depth and visual interest, making the subject and the scene more impactful.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, such as those on the dog's fur and the water surface, appear slightly muted and could benefit from a subtle lift to enhance the overall brightness and vibrancy of the scene.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image will gain a subtle boost in luminosity. The edited image will have slightly brighter highlights, contributing to a more airy and vibrant feel without losing detail.
+
+**Adjustment:** The shadows need to be slightly reduced.
+**Issue:** In the original image, the shadows, especially in the dog's fur and under the dog's chin, are somewhat deep and obscure detail. This makes these areas appear less defined and slightly heavy, reducing the overall clarity of the image.
+**Solution:** By slightly reducing the shadows, the darker areas will be lightened, revealing more detail in the dog's fur and under the dog's chin. The edited image will have more open shadows, improving the visibility of details in these areas and creating a more balanced tonal range.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image, such as in the dog's eyes and the brighter parts of the background, are not fully realized and appear slightly subdued. This contributes to the overall slightly muted appearance of the image.
+**Solution:** By very slightly increasing the whites, the brightest tones will be enhanced, making the white areas appear cleaner and brighter. The edited image will have slightly brighter whites, contributing to a more polished and vibrant final look.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than it could be. This affects the overall brightness and vibrancy of the image, making it feel less lively.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. The edited image will be brighter and more vibrant, improving the visibility of all elements in the scene and creating a more inviting and well-lit photograph. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 11, \"Contrast\": 31, \"Highlights\": 12, \"Shadows\": -17, \"Whites\": 10, \"Exposure\": 12}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene look a bit muted and less engaging. Since it depicts a portrait of a dog outdoors, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more lively and appealing feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The temperature needs to be very slightly increased.
+**Issue:** In the original image, the overall tone appears slightly cool. This coolness is noticeable in the bluish tint of the water and the slightly pale appearance of the dog's fur. This cool tone makes the image feel a bit less inviting and slightly washed out.
+**Solution:** By very slightly increasing the temperature, the image will gain a touch of warmth. This will neutralize the cool cast, making the water appear less bluish and the dog's fur look more natural and healthy. The overall scene will feel more inviting and less sterile.
+
+**Adjustment:** The tint needs to be very slightly decreased towards magenta.
+**Issue:** The original image exhibits a very subtle greenish tint, particularly noticeable in the background and subtly affecting the skin tones of the dog. This slight green cast can make the image look slightly unnatural and less balanced in color.
+**Solution:** By very slightly decreasing the tint towards magenta, the subtle greenish cast will be neutralized. This adjustment will balance the color tones, resulting in more natural-looking skin tones for the dog and a more harmonious overall color balance in the image.
+
+**Adjustment:** The saturation needs to be moderately increased.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. The blue of the water, the red of the umbrella in the background, and the overall scene feel less lively and impactful. This lack of saturation makes the image appear less engaging and less visually appealing.
+**Solution:** By moderately increasing the saturation, the colors throughout the image will become richer and more vibrant. The blue of the water will become more pronounced, the red of the umbrella will pop, and the overall scene will gain a more dynamic and visually appealing quality. The image will appear more lively and engaging, enhancing the viewer's experience. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Tint\": -1, \"Saturation\": 40}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant blues in the background and water, which makes the overall scene appear a bit less lively. Since it depicts a portrait of a dog in an outdoor setting with water and sky, the editing should target the blue tones to enhance the vibrancy and depth of these elements without drastically altering the overall color balance. To achieve this, adjustments like increasing the saturation of blues and slightly shifting their hue will help create the intended effect of a more visually appealing and slightly more vibrant image.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the blues needs to be slightly increased.
+**Issue:** In the original image, the blue tones in the background sky and water appear somewhat muted and lack vibrancy. This makes the background feel less engaging and slightly dull, reducing the overall visual appeal of the scene.
+**Solution:** By slightly increasing the saturation of the blues, the blue areas in the background, particularly the sky and water, will become more vibrant and visually appealing. This will enhance the overall liveliness of the image and draw more attention to the background elements.
+
+**Adjustment:** The hue of the blues needs to be very slightly adjusted towards a cooler tone.
+**Issue:** In the original image, the blue tones in the background might lean slightly towards a less desirable shade, possibly appearing a bit too warm or slightly off-hue. This subtle hue issue can affect the overall color harmony and naturalness of the blue areas.
+**Solution:** By very slightly adjusting the hue of the blues, the blue tones in the background will shift to a more refined and pleasing shade. This subtle hue correction will ensure that the blues appear more natural and harmonious within the overall color palette of the image, contributing to a more polished final look. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentBlue\": 17, \"HueAdjustmentBlue\": -1}"
+```
+<|im_end|>

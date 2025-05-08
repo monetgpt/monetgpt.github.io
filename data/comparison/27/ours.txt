@@ -1,0 +1,84 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring harsh sunlight, with slightly overexposed highlights and somewhat underexposed shadows, resulting in a slightly flat and less dynamic appearance. Since it captures a historical site with ruins and a clear sky, the editing should emphasize balancing the exposure, recovering details in both highlights and shadows, and adding a touch of contrast to enhance the visual appeal and create a more balanced and engaging image.
+
+**Adjustment:** The blacks need to be very slightly reduced.
+**Issue:** In the original image, the black tones, particularly in the shadowed areas of the ruins and the darker parts of the trees, appear slightly lifted and not as deep as they could be. This contributes to a slightly washed-out look and reduces the overall depth of the image.
+**Solution:** By very slightly reducing the blacks, the darkest areas of the image will become richer and deeper. The shadows in the ruins and trees will gain more definition, enhancing the sense of depth and grounding the image.
+
+**Adjustment:** The contrast needs to be very slightly increased.
+**Issue:** The original image appears somewhat flat and lacks a strong sense of contrast. The tonal separation between the lighter and darker areas is not pronounced enough, making the image look less dynamic and visually engaging.
+**Solution:** By very slightly increasing the contrast, the difference between the light and dark tones will be enhanced. This will add more definition to the textures of the ruins and the foliage, making the image more visually appealing and less flat.
+
+**Adjustment:** The highlights need to be slightly reduced.
+**Issue:** In the original image, the highlights, especially in the sky and on the lighter parts of the ruins, are quite bright and verge on being overexposed. This causes a loss of detail in these areas, making the sky appear less textured and the lighter parts of the ruins less defined.
+**Solution:** By slightly reducing the highlights, the details in the brightest areas of the image will be recovered. The sky will show more cloud texture, and the lighter parts of the ruins will gain more detail, resulting in a more balanced and richer image.
+
+**Adjustment:** The shadows need to be slightly increased.
+**Issue:** In the original image, the shadows, particularly in the darker areas of the ruins and under the trees, are somewhat underexposed and lack detail. This makes these areas appear too dark and obscures the textures and details within the shadows.
+**Solution:** By slightly increasing the shadows, the details in the darker areas of the image will be revealed. The textures in the ruins and under the trees will become more visible, adding depth and richness to these areas and preventing them from appearing as solid black masses.
+
+**Adjustment:** The whites need to be very slightly reduced.
+**Issue:** In the original image, the white tones, especially in the brightest parts of the sky and the lightest parts of the ruins, are very bright and could be slightly toned down to prevent potential clipping and ensure detail retention in the absolute brightest areas.
+**Solution:** By very slightly reducing the whites, the brightest tones in the image will be subtly controlled. This will ensure that the white areas retain detail and do not appear blown out, contributing to a more refined and balanced tonal range.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than it could be. This slight underexposure reduces the overall brightness and vibrancy of the image, making it appear less lively and engaging.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. This will lift the midtones and highlights, making the scene appear brighter and more vibrant, and improving the overall visual appeal of the photograph. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": -11, \"Contrast\": 11, \"Highlights\": -18, \"Shadows\": 18, \"Whites\": -1, \"Exposure\": 11}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene look a bit muted and less engaging. Since it depicts a historical site with ruins and a clear sky, the editing goal is to refine the overall color balance to achieve a more vibrant and slightly warmer mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more lively and visually appealing impression.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The Temperature needs to be increased very slightly.
+**Issue:** In the original image, the overall tone appears slightly cool. This coolness is subtly visible across the entire scene, including the sky, the stone ruins, and the greenery, making the image feel a bit less inviting and slightly muted in terms of warmth.
+**Solution:** By very slightly increasing the temperature, the image will gain a touch of warmth. This will counteract the cool tones, making the stone ruins appear more naturally toned and the sky less stark, resulting in a more balanced and inviting overall color palette.
+
+**Adjustment:** The Tint needs to be decreased very slightly.
+**Issue:** The original image exhibits a very subtle greenish tint, particularly noticeable in the lighter areas of the stone ruins and the sky. This slight green cast can make the image appear slightly unnatural and less clean in its color presentation.
+**Solution:** By very slightly decreasing the tint, moving it towards magenta, the subtle greenish cast will be neutralized. This adjustment will result in cleaner whites in the stone ruins and a more balanced color rendition in the sky, enhancing the overall clarity and naturalness of the image.
+
+**Adjustment:** The Saturation needs to be increased very slightly.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. This is evident in the sky, the greenery, and the stone ruins, which all seem a bit flat and less visually impactful. The overall scene lacks a certain liveliness due to this lower saturation.
+**Solution:** By very slightly increasing the saturation, the colors throughout the image will become more vibrant and pronounced. The blue of the sky will appear richer, the green of the trees will be more lush, and the stone ruins will gain more texture and color depth, resulting in a more visually engaging and dynamic photograph. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Tint\": -1, \"Saturation\": 12}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant greens in the foliage, which makes the scene appear a bit less lively. Since it depicts a historical site with natural elements like trees, the editing should target the green tones to enhance their vibrancy and natural appearance without drastically altering the overall color balance. To achieve this, adjustments like increasing the saturation of greens and slightly shifting their hue towards a more natural green will help create the intended effect of a more vibrant and visually appealing scene.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the greens needs to be slightly increased.
+**Issue:** In the original image, the green foliage, particularly visible in the trees at the top and right, appears somewhat desaturated and lacks vibrancy. This makes the greenery look a bit dull and less lively, reducing the overall visual appeal of the scene.
+**Solution:** By slightly increasing the saturation of the greens, the foliage in the edited image will appear more vibrant and lush. This will enhance the natural beauty of the greenery, making it a more visually appealing element within the scene and contributing to a more lively and engaging overall image.
+
+**Adjustment:** The hue of the greens needs to be very slightly adjusted towards a more natural green.
+**Issue:** In the original image, the green tones in the foliage might lean slightly towards a less natural or slightly yellowish hue. This subtle color cast can make the greens appear less fresh and slightly artificial, detracting from the natural look of the outdoor setting.
+**Solution:** By very slightly adjusting the hue of the greens towards a more natural green, the foliage in the edited image will exhibit a more realistic and pleasing green tone. This subtle shift will refine the color balance of the greens, making them appear fresher and more harmonious with the other colors in the scene, contributing to a more natural and visually balanced final image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentGreen\": 18, \"HueAdjustmentGreen\": -1}"
+```
+<|im_end|>

@@ -1,0 +1,80 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at night, featuring artificial lighting from stadium lights, with slightly underexposed shadows and a somewhat flat tonal range. Since it captures a dynamic scene of a motorbike event at night, the editing should emphasize brightening the overall image, enhancing contrast, and bringing out details in shadows to create a more visually engaging and dynamic photograph that highlights the energy of the scene.
+
+**Adjustment:** The blacks need to be slightly increased.
+**Issue:** In the original image, the black levels are too deep, causing a loss of detail in the darkest areas, particularly in the shadows under the stadium seats and within the background foliage. This makes these areas appear overly dark and obscures potential textures and details.
+**Solution:** By slightly increasing the blacks, the darkest tones will be lifted, revealing more detail in the shadowed areas. The areas under the stadium seats and the background foliage will become more visible, adding depth and richness to the image.
+
+**Adjustment:** The contrast needs to be slightly increased.
+**Issue:** The original image appears somewhat flat and lacks dynamic range. The separation between the highlights and shadows is not pronounced enough, resulting in a less impactful and slightly dull visual experience.
+**Solution:** By slightly increasing the contrast, the difference between the light and dark areas will be enhanced. This will add depth and dimension to the image, making the scene more visually dynamic and engaging.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, particularly in the stadium lights and the sky, are bright but could be slightly enhanced to better reflect the artificial lighting conditions and create a more dramatic night-time atmosphere.
+**Solution:** By very slightly increasing the highlights, the brightest areas of the image, such as the stadium lights and the sky, will become more pronounced. This will enhance the artificial lighting effect and contribute to a more dramatic and energetic feel appropriate for a night scene.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** The shadows in the original image, especially in the foreground and under the stadium seats, are quite dark and obscure details. This makes these areas appear heavy and less informative, reducing the overall clarity of the scene.
+**Solution:** By very slightly increasing the shadows, the darker areas of the image will be brightened, revealing more detail in the foreground and under the stadium seats. This will improve the overall visibility of the scene and create a more balanced tonal range.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image are not fully realized, contributing to the overall slightly muted appearance. The brightest parts of the image lack a certain brilliance, preventing the image from achieving its full potential in terms of brightness and dynamic range.
+**Solution:** By very slightly increasing the whites, the brightest tones in the image will be enhanced, adding a subtle lift to the overall brightness and expanding the dynamic range. This will make the image feel slightly more vibrant and polished without clipping the highlights.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than it could be. This slight underexposure reduces the overall brightness and vibrancy of the image, making it less visually appealing.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. This will make the entire scene appear more vibrant and well-lit, improving the visibility of all elements within the frame and creating a more energetic and dynamic final image. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 21, \"Contrast\": 18, \"Highlights\": 11, \"Shadows\": 11, \"Whites\": 11, \"Exposure\": 10}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight green cast and under-saturated colors, which makes the scene look a bit dull and less engaging. Since it depicts a dynamic outdoor scene with a person on a skateboard, the editing goal is to refine the overall color balance to achieve a more vibrant and energetic mood. To accomplish this, adjustments like Tint and Saturation will help correct the green tint and enhance the photo's overall color intensity, ensuring the final image conveys a more punchy and visually appealing feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The tint needs to be very slightly increased towards magenta.
+**Issue:** In the original image, there is a subtle green cast visible across the entire scene, particularly noticeable in the sky and the grey concrete surfaces of the stadium. This green tint makes the image appear slightly unnatural and less appealing, detracting from the overall vibrancy of the scene.
+**Solution:** By very slightly increasing the tint towards magenta, the green cast will be neutralized. The edited image will have a more balanced color palette, making the sky appear more naturally blue and the concrete surfaces less greenish, resulting in a more realistic and visually pleasing representation of the scene.
+
+**Adjustment:** The global saturation needs to be mildly increased.
+**Issue:** The original image appears somewhat under-saturated, causing the colors to look muted and less impactful. The blue of the sky, the red of the stadium seats, and the colors of the clothing lack vibrancy, making the scene feel less dynamic and energetic.
+**Solution:** By mildly increasing the global saturation, the colors throughout the image will become richer and more vibrant. The blue of the sky will become deeper and more saturated, the red stadium seats will appear more intense, and the colors of the clothing will pop more, enhancing the overall visual impact and energy of the scene. 
+
+The parameters for **[Temperature]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Tint\": 11, \"Saturation\": 31}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly noticeable in the stadium seats and the track surface. Since it depicts a dynamic scene with a stadium setting, the editing should target the orange color range to enhance the visual impact and create a more energetic and engaging atmosphere. To achieve this, adjustments like increasing the saturation of orange and slightly shifting its hue will help create the intended effect of a more vibrant and visually striking image.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be moderately increased.
+**Issue:** In the original image, the orange color of the stadium seats and the track surface appears somewhat muted and lacks vibrancy. This desaturation makes these elements less visually impactful and reduces the overall energy of the scene.
+**Solution:** By moderately increasing the saturation of the orange tones, the stadium seats and the track surface will become more vibrant and visually prominent. This enhancement will contribute to a more energetic and engaging atmosphere in the edited image, making the scene more dynamic and appealing.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly adjusted towards a warmer direction.
+**Issue:** In the original image, the orange color of the stadium seats and the track surface leans slightly towards a less saturated or slightly cooler shade of orange. This subtle hue issue can make the orange tones appear less rich and less visually appealing.
+**Solution:** By very slightly adjusting the hue of the orange tones towards a warmer direction, the stadium seats and the track surface will gain a richer and more visually appealing orange hue. This subtle shift will enhance the overall color harmony and make the orange elements more inviting and prominent in the edited image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 42, \"HueAdjustmentOrange\": 1}"
+```
+<|im_end|>

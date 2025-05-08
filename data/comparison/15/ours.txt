@@ -1,0 +1,80 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken during daytime, featuring indoor lighting conditions, with slightly underexposed shadows and a somewhat flat tonal range. Since it captures a portrait of a woman in a decorative frame, the editing should emphasize brightening the overall image, enhancing contrast, and bringing out details in shadows to create a more visually appealing and balanced photograph.
+
+**Adjustment:** The blacks need to be mildly increased.
+**Issue:** In the original image, the black tones, particularly in the darker areas of the frame and the woman's dress, appear somewhat dense and lack detail. This makes these areas look slightly muddy and less defined, reducing the overall clarity of the image.
+**Solution:** By mildly increasing the blacks, the darkest tones will be lifted, revealing more detail in the shadows of the frame and the woman's attire. The edited image will have a more open shadow area, enhancing the texture and form in these regions.
+
+**Adjustment:** The contrast needs to be slightly increased.
+**Issue:** The original image appears somewhat flat and lacks visual depth. The tonal separation between the lighter and darker areas is not pronounced enough, resulting in a less dynamic and slightly dull appearance overall.
+**Solution:** By slightly increasing the contrast, the difference between the highlights and shadows will be enhanced. The edited image will exhibit a greater sense of depth and visual interest, making the subject and the frame stand out more distinctly from the background.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, especially on the woman's crown and the lighter parts of the frame, are not as bright as they could be. This contributes to the overall slightly muted and less vibrant feel of the image.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, such as the crown and the lighter parts of the frame, will become subtly brighter. The edited image will have a slightly more luminous quality in these areas, enhancing the overall brightness without causing overexposure.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** The shadows in the original image, particularly in the darker parts of the frame and the woman's dress, are a bit too deep, obscuring some of the finer details and textures in these areas. This makes the image feel slightly underexposed in the shadow regions.
+**Solution:** By very slightly increasing the shadows, the darker areas will be gently brightened, revealing more detail and texture within the shadows of the frame and the woman's dress. The edited image will have a more balanced tonal range, with improved visibility in the shadow areas.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image, such as in the brightest parts of the frame and the woman's clothing, are not fully realized. This contributes to the image feeling slightly less bright and vibrant overall.
+**Solution:** By very slightly increasing the whites, the absolute brightest points in the image will be subtly enhanced. The edited image will have a slightly brighter and more complete tonal range, with a subtle lift in the overall brightness without clipping the highlights.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, resulting in a somewhat dark and muted appearance. This affects the overall brightness and vibrancy of the image, making it feel less lively and engaging.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. The edited image will be brighter and more vibrant, improving the visibility of all elements within the frame and creating a more visually appealing and well-lit photograph. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 30, \"Contrast\": 17, \"Highlights\": 1, \"Shadows\": 10, \"Whites\": 1, \"Exposure\": 10}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight green cast and under-saturated colors, which makes the scene look a bit dull and lifeless. Since it depicts a portrait in an ornate setting, the editing goal is to refine the color balance to achieve a more vibrant and visually appealing look. To accomplish this, adjustments like Tint and Saturation will help correct the green cast and enhance the photo's overall color intensity, ensuring the final image conveys a richer and more engaging feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The tint needs to be slightly increased towards magenta.
+**Issue:** The original image exhibits a subtle green cast, most noticeably in the skin tones of the subject and the grey stone background. This green tint makes the image appear slightly unnatural and less appealing, detracting from the overall warmth and richness of the scene.
+**Solution:** By slightly increasing the tint towards magenta, the green cast will be neutralized. The skin tones will appear more natural and healthy, and the grey background will become more neutral, resulting in a more balanced and visually harmonious color palette throughout the image.
+
+**Adjustment:** The global saturation needs to be mildly increased.
+**Issue:** The original image appears somewhat desaturated, with colors lacking vibrancy and depth. This is particularly noticeable in the gold frame of the mirror, the blue dress of the subject, and the overall scene, which looks a bit muted and less engaging.
+**Solution:** By mildly increasing the global saturation, the colors throughout the image will become more vibrant and rich. The gold frame will appear more lustrous, the blue dress will gain depth, and the entire scene will become more visually appealing and dynamic, enhancing the overall impact of the photograph. 
+
+The parameters for **[Temperature]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Tint\": 13, \"Saturation\": 28}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly in the golden frame of the mirror and the model's skin, which makes the scene appear less rich and inviting. Since it depicts a portrait in a decorative setting, the editing should target the orange color range to enhance the warmth and richness of these elements without altering the overall color balance drastically. To achieve this, adjustments like increasing the saturation of orange and slightly shifting its hue will help create the intended effect of a more vibrant and visually appealing image with enhanced warmth and depth.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be mildly increased.
+**Issue:** In the original image, the orange colors, especially noticeable in the golden frame of the mirror and the model's skin, appear somewhat desaturated and lack vibrancy. This makes these elements look less visually appealing and diminishes the overall richness of the scene.
+**Solution:** By mildly increasing the saturation of the orange tones, the golden frame of the mirror will appear more lustrous and visually striking. The model's skin will also gain a healthier and more vibrant appearance, enhancing the overall warmth and appeal of the image.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly adjusted towards a warmer direction.
+**Issue:** In the original image, the orange tones, particularly in the golden frame and the model's skin, might lean slightly towards a less warm or slightly yellowish hue. This subtle coolness in the orange range can make these elements appear less rich and less harmonious with the overall warm lighting of the scene.
+**Solution:** By very slightly adjusting the hue of the orange tones towards a warmer direction, the golden frame will exhibit a richer, more golden hue, enhancing its visual appeal. The model's skin tones will also benefit from this subtle shift, appearing warmer and more naturally radiant, contributing to a more cohesive and inviting overall image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 31, \"HueAdjustmentOrange\": 1}"
+```
+<|im_end|>

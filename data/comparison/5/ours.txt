@@ -1,0 +1,84 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at night, featuring city streetlights, with underexposed shadows and low contrast. Since it captures a night street scene with a sunset glow, the editing should emphasize bringing out details in shadows, adding contrast, and enhancing the sunset glow to create a more visually appealing and dynamic night scene.
+
+**Adjustment:** The blacks need to be very slightly increased.
+**Issue:** In the original image, the black levels are too deep, causing a loss of detail in the darkest areas, particularly in the shadows under the buildings and on the street. This makes these areas appear overly dark and obscures textures and details.
+**Solution:** By very slightly increasing the blacks, the darkest tones will be lifted, revealing more detail in the shadowed areas of the buildings and the street. The edited image will have a more open shadow region, showing more texture and depth in these areas.
+
+**Adjustment:** The contrast needs to be moderately increased.
+**Issue:** The original image appears flat and lacks dynamic range. The tonal separation between the highlights and shadows is weak, resulting in a lack of visual interest and depth. The scene looks somewhat dull and less engaging.
+**Solution:** By moderately increasing the contrast, the difference between the light and dark areas will be enhanced. The edited image will have a greater sense of depth and visual impact, with brighter highlights and darker shadows creating a more dynamic and engaging scene.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, particularly in the sky and on the street lights, are somewhat muted and lack a certain brilliance. While not severely underexposed, they could be slightly brighter to enhance the sunset glow and overall brightness of the scene.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, such as the sky and the street lights, will gain a subtle lift in brightness. The edited image will have a slightly more luminous sky and brighter street lights, contributing to a more vibrant and atmospheric night scene.
+
+**Adjustment:** The shadows need to be moderately increased.
+**Issue:** The shadows in the original image are too dark, obscuring details in the buildings, the street, and the foreground elements. This underexposure makes these areas appear muddy and reduces the overall clarity and information in the darker parts of the scene.
+**Solution:** By moderately increasing the shadows, the darker areas of the image will be brightened, revealing details that were previously hidden in shadow. The edited image will have more visible texture and detail in the buildings, the street, and foreground, improving the overall clarity and information in the darker regions.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image are not fully realized, contributing to the overall slightly muted and less vibrant appearance. The brightest parts of the image lack a certain crispness and brilliance.
+**Solution:** By very slightly increasing the whites, the brightest tones in the image will be subtly enhanced. The edited image will have a slightly brighter and more refined white point, adding a touch of crispness and enhancing the overall brightness without clipping the highlights.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than intended. This slight underexposure contributes to the loss of detail in the shadows and the overall muted feel of the image.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be lifted. The edited image will be brighter and more balanced, enhancing the visibility of details across the entire scene and creating a more inviting and well-lit night scene. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 11, \"Contrast\": 41, \"Highlights\": 11, \"Shadows\": 42, \"Whites\": 12, \"Exposure\": 11}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene look a bit muted and less engaging. Since it depicts a night scene with street lights and a sunset, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more inviting and lively atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The temperature needs to be very slightly increased.
+**Issue:** In the original image, the overall color tone appears slightly cool. This coolness is noticeable in the sky and the general ambiance of the night scene, making it feel less warm and inviting than it could be.
+**Solution:** By very slightly increasing the temperature, the edited image will have a warmer color cast. This will introduce a subtle yellowish hue to the scene, making the sunset appear more vibrant and the night scene feel more inviting and cozy.
+
+**Adjustment:** The tint needs to be very slightly increased towards magenta.
+**Issue:** The original image exhibits a very subtle greenish tint, particularly noticeable in the darker areas and shadows. This slight green cast can make the image feel slightly unbalanced in terms of color.
+**Solution:** By very slightly increasing the tint towards magenta, the edited image will counteract the subtle green cast. This adjustment will help neutralize the color balance, resulting in more natural and balanced colors throughout the image, especially in the shadow areas and overall scene.
+
+**Adjustment:** The saturation needs to be slightly increased.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. This is evident in the sky, the street lights, and the overall scene, which feels less dynamic and visually impactful.
+**Solution:** By slightly increasing the saturation, the edited image will have more vibrant and richer colors. The sunset will appear more intense, the street lights will glow more brightly, and the overall scene will gain a more lively and engaging feel, enhancing the visual impact of the night scene. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Tint\": 1, \"Saturation\": 15}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly noticeable in the street lights and the warm sunset glow, which makes the scene feel a bit less inviting and energetic. Since it depicts a night street scene with warm sunset lighting, the editing should target the orange color range to enhance the warmth and vibrancy of the sunset and street lights without drastically altering the overall color palette. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards a warmer tone will help create the intended effect of a more vibrant and inviting night scene with enhanced sunset glow and warmer street lighting.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be moderately increased.
+**Issue:** In the original image, the orange colors, especially in the street lights and the warm sunset glow, appear somewhat muted and lack vibrancy. This reduces the overall warmth and energy of the night scene, making the sunset and street lights less visually appealing.
+**Solution:** By moderately increasing the saturation of the orange tones, the orange colors in the street lights and the sunset will become more vibrant and pronounced. This will enhance the warmth and energy of the night scene, making the sunset and street lights more visually striking and contributing to a more energetic and inviting atmosphere.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly adjusted towards a warmer direction.
+**Issue:** In the original image, the orange tones, particularly in the sunset and the street lights, might lean slightly towards a less saturated or slightly less warm shade of orange. This subtle coolness in the orange hues can make the sunset and street lights appear less inviting and less harmonious with the overall warm night scene.
+**Solution:** By very slightly adjusting the hue of the orange tones towards a warmer direction, the orange colors in the sunset and the street lights will gain a touch of added warmth. This subtle shift will make the sunset and street lights appear more inviting and harmoniously integrated with the warm night scene, enhancing the overall visual appeal and creating a more cohesive and visually pleasing image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 41, \"HueAdjustmentOrange\": 1}"
+```
+<|im_end|>

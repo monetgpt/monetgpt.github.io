@@ -1,0 +1,80 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring harsh sunlight, with slightly overexposed highlights and somewhat underexposed shadows, resulting in a slightly flat and less dynamic appearance. Since it captures a portrait of two women in an outdoor setting, the editing should emphasize balancing the exposure, recovering details in both highlights and shadows, and adding a touch of contrast to enhance the subjects and create a more visually appealing and naturally vibrant image.
+
+**Adjustment:** The blacks need to be mildly reduced.
+**Issue:** In the original image, the black tones appear slightly lifted, contributing to a general lack of depth and contrast. This is particularly noticeable in the darker areas of the background and within the shadows of the subjects' clothing, making the image look somewhat washed out and less impactful.
+**Solution:** By mildly reducing the blacks, the darker tones in the image will become richer and deeper. This will add depth to the shadows, enhance the overall contrast, and make the image appear less flat and more visually engaging.
+
+**Adjustment:** The contrast needs to be very slightly reduced.
+**Issue:** The original image exhibits a slightly harsh contrast, which, while not extreme, could be softened to create a more pleasing and natural look. The transitions between highlights and shadows are somewhat abrupt, potentially losing subtle details in the midtones.
+**Solution:** By very slightly reducing the contrast, the tonal transitions in the image will become smoother and more gradual. This will soften the overall look, potentially recovering subtle details in the midtones and creating a more balanced and harmonious image.
+
+**Adjustment:** The highlights need to be very slightly reduced.
+**Issue:** In the original image, the highlights, especially on the woman's forehead, cheek, and parts of the background, are slightly too bright. These brighter areas draw excessive attention and could potentially lose subtle details, making the image appear slightly overexposed in these regions.
+**Solution:** By very slightly reducing the highlights, the brightest areas of the image will be toned down, allowing for better detail retention in these regions. This will create a more balanced exposure and prevent the highlights from becoming distracting, leading to a smoother tonal range.
+
+**Adjustment:** The shadows need to be slightly increased.
+**Issue:** In the original image, the shadows, particularly under the subjects' chins, in their hair, and within the background foliage, are somewhat underexposed. These darker areas lack detail and contribute to a slightly flat appearance, preventing the image from having a full tonal range and depth.
+**Solution:** By slightly increasing the shadows, the darker areas of the image will be brightened, revealing more detail in the shadows. This will open up the darker tones, adding depth and dimension to the image, and creating a more balanced distribution of tones from highlights to shadows.
+
+**Adjustment:** The whites need to be slightly increased.
+**Issue:** While the highlights are slightly bright, the overall white tones in the original image appear somewhat muted. This contributes to the image feeling slightly less vibrant and lacking in overall brightness in the lighter areas, preventing the image from having a full range of tones.
+**Solution:** By slightly increasing the whites, the brightest tones in the image will be enhanced, making the image appear brighter and more vibrant overall. This will add a subtle lift to the lighter areas, expanding the tonal range and making the image feel more lively and well-exposed in the white tones.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, resulting in a somewhat muted and less vibrant appearance. The entire scene could benefit from a slight increase in brightness to enhance its overall clarity and visual appeal.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. This will lift the entire image, making it appear more vibrant and well-lit, and complementing the adjustments made to highlights, shadows, whites, and blacks to achieve a more balanced and visually appealing exposure. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": -30, \"Contrast\": -12, \"Highlights\": -10, \"Shadows\": 13, \"Whites\": 15, \"Exposure\": 12}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight green cast and appears somewhat under-saturated, which makes the scene look a bit dull and less lively. Since it depicts a casual outdoor portrait of two women, the editing goal is to refine the white balance and enhance the overall color vibrancy to achieve a more natural and cheerful mood. To accomplish this, adjustments like Tint and Saturation will help correct the green tint and boost the color intensity, ensuring the final image conveys a fresh and vibrant feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The tint needs to be slightly shifted towards magenta.
+**Issue:** The original image exhibits a subtle green cast, most noticeably in the skin tones of both women and the white parts of the background. This green tint makes the image appear slightly unnatural and less appealing, particularly affecting the warmth of the skin and the purity of the whites.
+**Solution:** By slightly shifting the tint towards magenta, the green cast will be neutralized. The skin tones will appear more natural and healthy, and the white areas will look cleaner and brighter, resulting in a more balanced and pleasing color rendition throughout the image.
+
+**Adjustment:** The global saturation needs to be slightly increased.
+**Issue:** The original image appears somewhat under-saturated, causing the colors to look muted and less vibrant. This lack of saturation diminishes the overall liveliness and visual impact of the scene, making it appear less engaging and dynamic.
+**Solution:** By slightly increasing the global saturation, the colors throughout the image will become more vibrant and pronounced. The colors in the women's clothing and the background elements will gain richness and depth, enhancing the overall visual appeal and making the image more lively and engaging. 
+
+The parameters for **[Temperature]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Tint\": -13, \"Saturation\": 14}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly noticeable in the woman's shirt, which makes the overall image appear a bit less lively. Since it depicts a portrait of two women in an outdoor setting, the editing should target the orange color range to enhance the vibrancy and warmth of the scene without drastically altering the natural look. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards red will help create the intended effect of a more vibrant and inviting image with richer colors.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be mildly increased.
+**Issue:** In the original image, the orange color of the woman's shirt appears somewhat muted and lacks vibrancy. This reduced saturation makes the shirt less visually appealing and less prominent within the scene, contributing to a slightly less lively overall feel.
+**Solution:** By mildly increasing the saturation of the orange tones, the shirt in the edited image will appear more vibrant and visually appealing. This enhancement will make the orange color richer and more pronounced, drawing more attention to the subject and adding a touch of liveliness to the image.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly shifted towards red.
+**Issue:** In the original image, the orange color of the woman's shirt might lean slightly towards a less warm or slightly yellowish hue. This subtle hue issue can make the orange appear less rich and potentially less harmonious with the other colors in the scene.
+**Solution:** By very slightly shifting the hue of the orange tones towards red, the orange color in the edited image will become warmer and richer. This subtle hue adjustment will refine the orange tones, making them appear more natural and harmonious with the overall color palette of the image, enhancing the visual appeal of the shirt. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 26, \"HueAdjustmentOrange\": -1}"
+```
+<|im_end|>

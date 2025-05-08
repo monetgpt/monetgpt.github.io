@@ -1,0 +1,80 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at golden hour, featuring soft twilight glow, with slightly underexposed shadows and a general lack of contrast. Since it captures a stupa at sunset, the editing should emphasize bringing out details in shadows, enhancing the golden hour glow, and adding contrast to create a more visually appealing and atmospheric image that highlights the subject and the sunset atmosphere.
+
+**Adjustment:** The blacks need to be mildly increased.
+**Issue:** In the original image, the black tones, particularly in the shadows under the stupa and within the foliage in the foreground, are too deep and lack detail. This makes these areas appear somewhat muddy and obscures the textures and forms within the darker regions of the image.
+**Solution:** By mildly increasing the blacks, the shadow areas will be lifted, revealing more detail in the darker parts of the image. The areas under the stupa and within the foliage will become more defined, adding depth and texture to these regions and preventing them from appearing overly dark and featureless.
+
+**Adjustment:** The contrast needs to be mildly increased.
+**Issue:** The original image appears somewhat flat and lacks visual punch. The tonal separation between the highlights and shadows is not pronounced enough, resulting in a less dynamic and slightly dull appearance overall.
+**Solution:** By mildly increasing the contrast, the separation between the lighter and darker tones will be enhanced. This will add depth and dimension to the image, making the stupa and the surrounding environment appear more visually engaging and less flat.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, especially on the golden roof of the stupa, are not as bright as they could be. This makes the golden color appear less luminous and less impactful, diminishing the potential for a magical golden hour effect.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, particularly the golden roof, will become more luminous and radiant. This will enhance the golden hour atmosphere, making the stupa appear more prominent and visually appealing, and adding a touch of brilliance to the scene.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** The shadows in the original image, particularly in the areas under the stupa and within the foliage, are slightly too dark. This contributes to a loss of detail in these areas and makes the image feel a bit heavy in the shadows.
+**Solution:** By very slightly increasing the shadows, the darker areas will be subtly brightened, revealing more detail within them. This will prevent the shadows from appearing too dense and improve the overall tonal balance of the image, ensuring that details in the darker regions are not lost.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image, such as in the sky and the lighter parts of the stupa, are not fully realized. They appear slightly muted, preventing the image from achieving its full potential in terms of brightness and dynamic range.
+**Solution:** By very slightly increasing the whites, the brightest areas of the image will become a touch brighter, expanding the dynamic range and adding a subtle lift to the overall brightness. This will make the image feel slightly more airy and open, enhancing the overall visual appeal without causing any clipping in the highlights.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than it could be. This slight underexposure reduces the overall brightness and vibrancy of the image, making it feel less lively and impactful.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be lifted, making it appear more naturally lit and vibrant. This will enhance the visibility of all elements in the scene, making the image feel more open and inviting, and better reflecting the natural light of the golden hour. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 31, \"Contrast\": 28, \"Highlights\": 11, \"Shadows\": 11, \"Whites\": 11, \"Exposure\": 11}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene appear somewhat muted and less engaging. Since it depicts a stupa in an outdoor setting, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more inviting and visually appealing atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The Temperature needs to be very slightly increased.
+**Issue:** In the original image, there is a subtle cool cast, evident in the slightly bluish tint across the sky and the stupa's golden roof. This coolness makes the overall scene feel a bit sterile and less inviting, lacking the warmth expected in an outdoor setting.
+**Solution:** By very slightly increasing the temperature, the cool cast will be neutralized, and the image will gain a warmer, more natural color balance. The sky will appear less bluish, and the golden roof will exhibit a richer, more inviting tone, enhancing the overall warmth of the scene.
+
+**Adjustment:** The Saturation needs to be mildly increased.
+**Issue:** The original image appears somewhat desaturated, with the colors lacking vibrancy and depth. The red bricks of the stupa and the green foliage in the foreground look muted and less impactful. This lack of saturation makes the image feel less dynamic and visually engaging.
+**Solution:** By mildly increasing the saturation, the colors throughout the image will become more vibrant and pronounced. The red bricks will appear richer and more defined, the green foliage will look lusher and more lively, and the overall image will gain a more visually appealing and dynamic quality, enhancing the impact of the scene. 
+
+The parameters for **[Tint]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Saturation\": 32}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly in the golden roof of the building, which makes the scene appear less lively and less visually striking. Since it depicts a building with a prominent golden roof, the editing should target the orange color range to enhance its vibrancy and luminosity without altering the overall color balance of the scene. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards a warmer tone will help create the intended effect of a more vibrant and visually appealing image with a richer golden color in the building's roof.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be mildly increased.
+**Issue:** In the original image, the orange colors, especially in the golden roof of the building, appear somewhat muted and lack vibrancy. This reduced saturation makes the golden roof look less prominent and less visually appealing, diminishing the overall impact of the building.
+**Solution:** By mildly increasing the saturation of the orange tones, the golden roof of the building will become more vibrant and visually striking. This enhancement will make the golden color richer and more pronounced, drawing more attention to the building and adding a touch of visual appeal to the scene.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly adjusted towards a warmer direction.
+**Issue:** In the original image, the orange tones in the golden roof of the building might lean slightly towards a less saturated or slightly cooler shade of orange. This subtle hue issue can make the golden roof appear less rich and less warm, potentially lacking some of the intended golden warmth.
+**Solution:** By very slightly adjusting the hue of the orange tones towards a warmer direction, the golden roof of the building will gain a richer and more golden hue. This subtle shift will enhance the warmth and visual appeal of the golden roof, making it appear more inviting and contributing to a more aesthetically pleasing image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 34, \"HueAdjustmentOrange\": 1}"
+```
+<|im_end|>

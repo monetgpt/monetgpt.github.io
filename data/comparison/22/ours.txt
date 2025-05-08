@@ -1,0 +1,80 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring soft sunlight, with slightly underexposed shadows and a general lack of contrast. Since it captures a field of flowers, the editing should emphasize brightening the overall image, enhancing contrast to make the flowers stand out, and balancing the tonal range to reveal details in both shadows and highlights, aiming for a vibrant and visually appealing photograph.
+
+**Adjustment:** The blacks need to be mildly increased.
+**Issue:** In the original image, the black tones, particularly in the shadowed areas of the foliage and under the flowers, are too deep and lack detail. This makes these areas appear somewhat muddy and reduces the overall depth of the image.
+**Solution:** By mildly increasing the blacks, the shadow areas will be lifted, revealing more detail in the darker parts of the foliage and under the flowers. The edited image will have a more open and less constricted feel in the shadows, improving the overall tonal balance.
+
+**Adjustment:** The contrast needs to be mildly increased.
+**Issue:** The original image appears somewhat flat and lacks visual punch. The separation between the lighter and darker tones is not strong enough, resulting in a less dynamic and slightly dull appearance.
+**Solution:** By mildly increasing the contrast, the difference between the highlights and shadows will be enhanced. The edited image will have a more defined tonal range, making the flowers and foliage appear more vibrant and visually engaging.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, particularly on the petals of the flowers, are slightly muted and lack a certain brilliance. This contributes to the overall slightly flat appearance of the image.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the flowers will gain a subtle lift in luminosity. The edited image will have slightly brighter highlights, adding a touch of brilliance to the flowers without causing them to appear overexposed.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** The shadows in the original image, especially within the foliage and under the flowers, are a bit too dense, potentially obscuring some details in these areas. This contributes to the slightly underexposed feel of the image.
+**Solution:** By very slightly increasing the shadows, the darker areas will be subtly brightened, revealing more detail within the foliage and under the flowers. The edited image will have slightly more open shadows, improving the overall visibility of details in these areas.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image are not fully realized, appearing slightly subdued. This contributes to the image's overall lack of brightness and vibrancy.
+**Solution:** By very slightly increasing the whites, the brightest parts of the image will be subtly enhanced. The edited image will have slightly brighter whites, contributing to a more luminous and airy feel overall.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than optimal. This affects the vibrancy of the colors and the overall brightness of the image.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be lifted. The edited image will be brighter and more vibrant, enhancing the colors of the flowers and foliage and making the scene more visually appealing. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 34, \"Contrast\": 27, \"Highlights\": 12, \"Shadows\": 11, \"Whites\": 12, \"Exposure\": 10}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight green cast and under-saturated colors, which makes the scene look a bit dull and lifeless. Since it depicts a vibrant outdoor scene with colorful flowers, the editing goal is to refine the color balance and enhance the overall color intensity to achieve a more vibrant and lively mood. To accomplish this, adjustments like Tint and Saturation will help correct the green cast and boost the color richness, ensuring the final image conveys a fresh and vibrant feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The tint needs to be very slightly shifted towards magenta.
+**Issue:** The original image exhibits a subtle green cast, particularly noticeable in the foliage and the overall color tone. This green tint makes the image appear slightly unnatural and less appealing, detracting from the vibrancy of the scene.
+**Solution:** By very slightly shifting the tint towards magenta, the green cast will be neutralized. The edited image will have a more balanced color palette, resulting in more natural-looking greens in the foliage and a more harmonious overall color tone.
+
+**Adjustment:** The global saturation needs to be mildly increased.
+**Issue:** The original image appears somewhat under-saturated, causing the colors to look muted and less vibrant. This lack of saturation diminishes the visual impact of the colorful flowers and the overall liveliness of the outdoor scene.
+**Solution:** By mildly increasing the global saturation, the colors throughout the image will become richer and more intense. The edited image will showcase more vibrant purple flowers, more lively green foliage, and an overall increase in color depth, enhancing the visual appeal and making the scene more engaging. 
+
+The parameters for **[Temperature]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Tint\": -1, \"Saturation\": 34}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant greens in the foliage, which makes the overall scene appear a bit less lively. Since it depicts a flower field in a natural setting, the editing should target the green tones to enhance the natural vibrancy of the environment without drastically altering the overall color balance. To achieve this, adjustments like increasing the saturation of greens and slightly shifting their hue will help create the intended effect of a more vibrant and naturally appealing image.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the greens needs to be slightly increased.
+**Issue:** In the original image, the green foliage in the background and foreground appears somewhat desaturated and lacks vibrancy. This makes the greenery look a bit dull and less lively, reducing the overall visual appeal of the natural setting.
+**Solution:** By slightly increasing the saturation of the greens, the foliage in the edited image will appear more vibrant and lush. This will enhance the natural beauty of the greenery, making the scene more visually engaging and lively.
+
+**Adjustment:** The hue of the greens needs to be very slightly adjusted towards a warmer tone.
+**Issue:** In the original image, the green tones in the foliage might lean slightly towards a cooler, less natural shade of green. This subtle coolness can make the greens appear slightly less harmonious with the warmer tones of the flowers and skin.
+**Solution:** By very slightly adjusting the hue of the greens towards a warmer direction, the foliage in the edited image will exhibit a more natural and inviting green tone. This subtle shift will create a more harmonious color palette, enhancing the overall natural and pleasant feel of the image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentGreen\": 18, \"HueAdjustmentGreen\": 1}"
+```
+<|im_end|>

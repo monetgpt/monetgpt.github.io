@@ -1,0 +1,80 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring harsh sunlight, with slightly overexposed highlights and somewhat underexposed shadows, resulting in a slightly flat and less dynamic appearance. Since it captures a landscape with trees and mountains in the background, the editing should emphasize balancing the exposure, recovering details in both highlights and shadows, and adding a touch of contrast to enhance the natural atmosphere and create a more visually appealing image.
+
+**Adjustment:** The blacks need to be very slightly reduced.
+**Issue:** In the original image, the black tones, particularly in the shadowed areas of the trees and foliage, appear slightly lifted and not deep enough. This contributes to a slightly washed-out look and reduces the overall depth of the image.
+**Solution:** By very slightly reducing the blacks, the darker areas of the image will become richer and more defined. The shadows in the trees and foliage will gain depth, enhancing the overall contrast and making the image appear less flat.
+
+**Adjustment:** The contrast needs to be very slightly increased.
+**Issue:** The original image appears somewhat flat and lacks a strong sense of contrast. This is evident in the overall muted tones and the lack of separation between the lighter and darker areas of the scene, making the image less visually engaging.
+**Solution:** By very slightly increasing the contrast, the separation between tones will be enhanced. The image will gain more depth and visual interest, making the scene appear less flat and more dynamic.
+
+**Adjustment:** The highlights need to be slightly reduced.
+**Issue:** In the original image, the highlights, especially in the sky and on the brighter parts of the trees, are slightly too bright and verge on being overexposed. This causes a loss of detail in these areas and can be distracting, drawing attention away from the main subject.
+**Solution:** By slightly reducing the highlights, the details in the brightest areas of the image will be recovered. The sky will show more texture and detail, and the brighter parts of the trees will retain more information, leading to a more balanced and detailed image.
+
+**Adjustment:** The shadows need to be slightly increased.
+**Issue:** In the original image, the shadows, particularly in the darker areas of the trees and foliage, are somewhat underexposed and lack detail. This makes these areas appear too dark and obscures the textures and details within the shadows, reducing the overall depth and richness of the image.
+**Solution:** By slightly increasing the shadows, the details in the darker areas of the image will be revealed. The textures in the trees and foliage will become more visible, and the overall image will have a more balanced tonal range, preventing the shadows from appearing too heavy or obscuring important details.
+
+**Adjustment:** The whites need to be slightly reduced.
+**Issue:** In the original image, the white tones, especially in the brightest parts of the sky and potentially on the highlights of the trees, are slightly too bright and could be bordering on clipping. This can lead to a loss of detail in the very brightest areas and make the image appear slightly harsh in the highlights.
+**Solution:** By slightly reducing the whites, the brightest areas of the image will be toned down, preventing potential clipping and recovering subtle details in the white tones. This will result in a smoother tonal transition in the highlights and a more refined overall exposure.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image appears to be slightly underexposed overall, resulting in a somewhat dark and muted appearance. This slight underexposure can make the image feel less vibrant and less inviting, and it could be hiding some details in the midtones.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. This will lift the midtones and brighten the image slightly, making it appear more vibrant and visually appealing without overexposing the highlights. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": -11, \"Contrast\": 11, \"Highlights\": -18, \"Shadows\": 16, \"Whites\": -15, \"Exposure\": 1}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene look a bit muted and less lively. Since it depicts a natural landscape with trees and mountains, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a fresh and natural yet more visually engaging feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The Temperature needs to be very slightly increased.
+**Issue:** In the original image, there is a subtle cool cast, evident in the slightly bluish tint across the entire scene, including the sky, trees, and ground. This coolness makes the image feel a bit less inviting and slightly muted in terms of warmth.
+**Solution:** By very slightly increasing the Temperature, the image will shift towards warmer tones. This will neutralize the cool cast, making the greens of the foliage appear more natural and vibrant, and the overall scene will gain a more inviting and pleasant warmth.
+
+**Adjustment:** The Saturation needs to be slightly increased.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. The greens of the trees and bushes, as well as the blue of the sky, are not as rich and lively as they could be. This lack of saturation makes the image feel less dynamic and visually impactful.
+**Solution:** By slightly increasing the Saturation, the colors throughout the image will become more pronounced and vibrant. The greens of the landscape will appear richer and more lush, the blue of the sky will be more saturated, and the overall image will have a more visually engaging and lively appearance. 
+
+The parameters for **[Tint]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Saturation\": 13}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant greens in the foliage, which makes the scene appear a bit less lively and impactful. Since it depicts a natural landscape with lush greenery, the editing should target the green tones to enhance their vibrancy and richness without drastically altering the overall color balance. To achieve this, adjustments like increasing the saturation of greens and slightly shifting their hue will help create the intended effect of a more vibrant and visually appealing landscape.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the greens needs to be slightly increased.
+**Issue:** In the original image, the green foliage, particularly in the trees and bushes, appears somewhat desaturated and lacks vibrancy. This mutedness makes the greenery look less lush and less visually engaging, diminishing the overall liveliness of the landscape.
+**Solution:** By slightly increasing the saturation of the greens, the foliage in the edited image will appear more vibrant and lush. This enhancement will make the greenery more visually appealing and contribute to a more dynamic and engaging landscape.
+
+**Adjustment:** The hue of the greens needs to be very slightly adjusted towards a warmer tone.
+**Issue:** In the original image, the green tones in the foliage might lean slightly towards a cooler or less saturated shade of green. This subtle coolness can make the greens appear slightly less natural and less harmonious with the overall warm tones of the scene.
+**Solution:** By very slightly adjusting the hue of the greens towards a warmer tone, the foliage in the edited image will exhibit a more natural and inviting green hue. This subtle shift will harmonize the greens with the other colors in the scene, creating a more cohesive and visually pleasing color palette. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentGreen\": 16, \"HueAdjustmentGreen\": 1}"
+```
+<|im_end|>

@@ -1,0 +1,84 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at golden hour, featuring soft twilight glow, with slightly underexposed shadows and a general lack of contrast. Since it captures a scenic view with a person and a landmark in the background, the editing should emphasize brightening the overall image, enhancing contrast to make the subject and scenery pop, and balancing the tonal range to reveal details in both shadows and highlights, aiming for a more vibrant and visually appealing photograph that captures the warmth of the golden hour.
+
+**Adjustment:** The blacks need to be slightly increased.
+**Issue:** In the original image, the black tones, particularly in the shadowed areas of the trees and the darker parts of the ground, appear somewhat dense and lack detail. This makes these areas look slightly muddy and less defined, reducing the overall depth and clarity of the image.
+**Solution:** By slightly increasing the blacks, the shadow areas will be lifted, revealing more detail within the darker regions of the trees and ground. The edited image will have a more open shadow area, preventing the blacks from appearing too heavy and improving the overall tonal balance.
+
+**Adjustment:** The contrast needs to be mildly increased.
+**Issue:** The original image appears somewhat flat and lacks dynamic range. The separation between the lighter and darker tones is not pronounced enough, resulting in a less impactful and slightly dull visual experience. The overall scene lacks a certain vibrancy and depth due to this lack of contrast.
+**Solution:** By mildly increasing the contrast, the difference between the highlights and shadows will be enhanced. The edited image will exhibit a greater sense of depth and visual interest, with brighter highlights and darker shadows creating a more dynamic and engaging composition.
+
+**Adjustment:** The highlights need to be slightly increased.
+**Issue:** In the original image, the highlights, especially in the sky and the brighter parts of the clouds, appear somewhat muted and lack a certain brilliance. This makes the sky look less vibrant and the overall scene slightly less luminous, diminishing the potential for a magical golden hour feel.
+**Solution:** By slightly increasing the highlights, the brighter areas of the image, such as the sky and clouds, will gain a subtle lift in brightness. The edited image will have a more luminous sky, enhancing the golden hour atmosphere and adding a touch of brilliance to the overall scene.
+
+**Adjustment:** The shadows need to be slightly increased.
+**Issue:** The shadows in the original image, particularly noticeable in the foreground grass and under the trees, are somewhat underexposed and lack detail. This makes these areas appear darker than necessary, obscuring textures and details within the shadows and contributing to a slightly less balanced exposure.
+**Solution:** By slightly increasing the shadows, the darker areas of the image will be brightened, revealing more detail in the foreground grass and under the trees. The edited image will have more open shadows, improving the visibility of textures and details in these areas and contributing to a more balanced and naturally lit appearance.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image, such as the brightest parts of the clouds and the lightest areas of the sky, are not fully realized and appear slightly subdued. This prevents the image from achieving its full potential in terms of brightness and dynamic range, making the overall scene feel slightly less vibrant.
+**Solution:** By very slightly increasing the whites, the absolute brightest points in the image will be subtly enhanced. The edited image will have a slightly brighter and more complete tonal range, with the white tones appearing cleaner and more pronounced, contributing to a more polished and refined final look.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, resulting in a somewhat dark and muted appearance. This underexposure affects the entire image, making it appear less vibrant and less inviting than it could be.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. The edited image will be brighter and more inviting, with a more balanced and naturally exposed appearance, improving the overall visual appeal and making the scene feel more lively and well-lit. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 21, \"Contrast\": 30, \"Highlights\": 15, \"Shadows\": 18, \"Whites\": 10, \"Exposure\": 11}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene appear somewhat muted and less engaging. Since it depicts a scenic outdoor landscape with a sunset and a landmark in the background, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more inviting and visually appealing atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The Temperature needs to be increased very slightly.
+**Issue:** In the original image, the overall color tone leans towards the cooler side, evident in the slightly bluish tint of the sky and the somewhat muted greens of the grass and trees. This coolness makes the scene feel less inviting and slightly diminishes the warmth typically associated with sunset lighting.
+**Solution:** By very slightly increasing the temperature, the image will shift towards warmer tones. This will counteract the cool cast, making the sky appear less bluish and the greens of the landscape more vibrant and natural, enhancing the overall warmth of the scene.
+
+**Adjustment:** The Tint needs to be increased very slightly.
+**Issue:** The original image exhibits a subtle greenish tint, particularly noticeable in the lighter areas of the sky and the overall color balance. This slight green cast can make the image appear slightly unnatural and less refined in its color presentation.
+**Solution:** By very slightly increasing the tint towards magenta, the subtle greenish cast will be neutralized. This adjustment will balance the color tones, leading to a more neutral and pleasing color rendition across the image, especially in the sky and lighter areas.
+
+**Adjustment:** The Saturation needs to be increased slightly.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. The greens of the grass and trees, as well as the colors of the sunset, are not as rich and impactful as they could be. This lower saturation level makes the image feel less dynamic and visually less engaging.
+**Solution:** By slightly increasing the saturation, the colors throughout the image will become more vibrant and pronounced. The greens of the landscape will appear richer, the sunset will gain more color depth, and the overall image will have a more lively and visually appealing quality, enhancing the impact of the scene. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 10, \"Tint\": 1, \"Saturation\": 13}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant greens in the grass and foliage, which makes the scene appear a bit dull and less lively. Since it depicts a park scene with a sunset backdrop, the editing should target the green tones to enhance the natural vibrancy of the environment without drastically altering the overall color palette. To achieve this, adjustments like increasing the saturation of greens and slightly shifting their hue towards a warmer tone will help create the intended effect of a more vibrant and inviting outdoor scene.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the greens needs to be mildly increased.
+**Issue:** In the original image, the green tones, particularly in the grass and trees, appear somewhat muted and lack vibrancy. This desaturation makes the scene look less lively and slightly dull, diminishing the overall visual appeal of the outdoor setting.
+**Solution:** By mildly increasing the saturation of the greens, the grass and foliage in the edited image will appear more vibrant and lush. This enhancement will make the greenery more visually appealing and contribute to a more lively and engaging atmosphere in the photograph.
+
+**Adjustment:** The hue of the greens needs to be very slightly adjusted towards yellow.
+**Issue:** In the original image, the green tones in the grass and trees lean slightly towards a cooler, blueish green. This cooler hue can make the greens appear less natural and slightly less warm, potentially clashing subtly with the warm sunset tones in the sky.
+**Solution:** By very slightly adjusting the hue of the greens towards yellow, the green tones in the edited image will become warmer and more natural-looking. This subtle shift will harmonize the greens with the warm sunset tones, creating a more cohesive and visually pleasing color palette that enhances the overall warmth of the scene. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentGreen\": 30, \"HueAdjustmentGreen\": 10}"
+```
+<|im_end|>

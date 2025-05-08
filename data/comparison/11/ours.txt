@@ -1,0 +1,76 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring harsh sunlight, with slightly overexposed highlights and somewhat underexposed shadows, resulting in a slightly flat and low-contrast appearance. Since it captures a scene with a hot air balloon and a landscape, the editing should emphasize balancing the exposure, recovering details in both highlights and shadows, and adding a touch of contrast to enhance the visual appeal and create a more dynamic and engaging image.
+
+**Adjustment:** The blacks need to be very slightly reduced.
+**Issue:** In the original image, the black tones, particularly in the shadowed areas under the hot air balloon and within the mountain range in the background, appear slightly lifted and not deep enough. This contributes to a slightly washed-out look and reduces the overall depth of the image.
+**Solution:** By very slightly reducing the blacks, the shadowed areas will become richer and deeper. The image will gain more depth, and the darker elements will appear more grounded, enhancing the overall tonal range.
+
+**Adjustment:** The contrast needs to be very slightly increased.
+**Issue:** The original image appears somewhat flat and lacks dynamic range. The separation between the lighter and darker areas is not pronounced enough, resulting in a less impactful visual experience.
+**Solution:** By very slightly increasing the contrast, the separation between tones will be enhanced. The image will gain more visual depth and dynamism, making the scene more engaging and less flat.
+
+**Adjustment:** The highlights need to be very slightly reduced.
+**Issue:** In the original image, the highlights, especially in the sky and on the white parts of the hot air balloon, are slightly too bright. This causes a minor loss of detail in these brighter areas and can be slightly distracting.
+**Solution:** By very slightly reducing the highlights, the details in the brightest areas, such as the sky and the white parts of the hot air balloon, will be better preserved. The image will have a more balanced exposure, and the highlights will be less overpowering.
+
+**Adjustment:** The shadows need to be slightly increased.
+**Issue:** In the original image, the shadows, particularly under the hot air balloon and within the mountain range, are somewhat underexposed. This obscures details in these darker areas and makes the image appear slightly less open and airy.
+**Solution:** By slightly increasing the shadows, the details in the darker areas will be revealed. The image will become more open and balanced, with improved visibility in the shadowed regions, enhancing the overall clarity and detail.
+
+**Adjustment:** The whites need to be very slightly reduced.
+**Issue:** In the original image, the white tones, especially in the sky and on the white parts of the hot air balloon, are slightly too bright. This contributes to a minor sense of overexposure in these areas and can be slightly harsh.
+**Solution:** By very slightly reducing the whites, the brightest white tones will be softened. The image will have a more refined tonal range, and the white areas will appear less harsh, contributing to a more balanced and pleasing overall exposure.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than it could be. This slightly diminishes the vibrancy and clarity of the image.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. The scene will appear more naturally lit and vibrant, improving the overall clarity and visual appeal without overexposing any specific areas. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": -11, \"Contrast\": 12, \"Highlights\": -12, \"Shadows\": 17, \"Whites\": -12, \"Exposure\": 12}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight green cast, which is particularly noticeable in the sky and the white parts of the scene, making the overall image appear slightly unnatural and less appealing. Since it depicts an outdoor scene with a sky and a white object, the editing goal is to refine the white balance to achieve a more neutral and natural color representation. To accomplish this, adjustments like Tint will help correct the green cast, ensuring the final image conveys a fresh and natural feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The tint needs to be very slightly increased towards magenta.
+**Issue:** In the original image, there is a subtle green cast affecting the overall color balance. This is most apparent in the sky, which appears slightly greenish, and in the white parts of the scene, such as the white object and the sky, which also exhibit a faint green tint. This green cast makes the image look slightly unnatural and less appealing.
+**Solution:** By very slightly increasing the tint towards magenta, the green cast will be neutralized. The sky will appear more naturally blue, and the white object and sky will lose the greenish hue, resulting in a more balanced and realistic color representation throughout the image. 
+
+The parameters for **[Temperature, Saturation]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Tint\": 12}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant greens in the landscape, which makes the scene appear a bit less lively. Since it depicts a landscape with a model, the editing should target the green tones to enhance the natural vibrancy of the environment without drastically altering the overall color balance. To achieve this, adjustments like increasing the saturation of greens and slightly shifting their hue towards a warmer tone will help create the intended effect of a more vibrant and naturally appealing landscape.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the greens needs to be slightly increased.
+**Issue:** In the original image, the green foliage in the background and foreground appears somewhat desaturated and lacks vibrancy. This makes the landscape look slightly dull and less engaging, failing to capture the lushness of natural greenery.
+**Solution:** By slightly increasing the saturation of the greens, the foliage in the edited image will appear more vibrant and lush. This enhancement will make the landscape more visually appealing and contribute to a more lively and engaging overall image.
+
+**Adjustment:** The hue of the greens needs to be very slightly adjusted towards yellow.
+**Issue:** In the original image, the green tones in the landscape might lean slightly towards a cooler, blue-ish green. This can make the greens appear a bit less natural and slightly less warm, potentially clashing subtly with the overall warm tones of the scene.
+**Solution:** By very slightly adjusting the hue of the greens towards yellow, the green tones in the edited image will become warmer and more natural-looking. This subtle shift will harmonize the greens with the other colors in the scene, creating a more cohesive and naturally appealing color palette. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentGreen\": 15, \"HueAdjustmentGreen\": 1}"
+```
+<|im_end|>

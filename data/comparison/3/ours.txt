@@ -1,0 +1,84 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring soft sunlight glow, with slightly underexposed shadows and a general lack of contrast. Since it captures a stupa in an outdoor setting, the editing should emphasize brightening the overall image, enhancing contrast to make the stupa stand out, and recovering details in both shadows and highlights to create a more visually appealing and balanced photograph.
+
+**Adjustment:** The blacks need to be very slightly increased.
+**Issue:** In the original image, the black tones, particularly in the shadowed areas under the stupa and within the stupa's details, appear somewhat dense and lack subtle detail. This makes these areas look slightly flat and less defined.
+**Solution:** By very slightly increasing the blacks, the shadow areas will be lifted, revealing more detail within the stupa's darker parts and adding subtle depth to the image. The overall tonal range will become slightly more open, preventing the shadows from appearing too heavy.
+
+**Adjustment:** The contrast needs to be slightly increased.
+**Issue:** The original image appears somewhat flat and lacks visual punch. The separation between the lighter and darker tones is not pronounced enough, resulting in a less dynamic and slightly dull appearance overall.
+**Solution:** By slightly increasing the contrast, the difference between the highlights and shadows will be enhanced. This will add more definition to the stupa's structure and the sky, making the image more visually engaging and less flat.
+
+**Adjustment:** The highlights need to be very slightly reduced.
+**Issue:** In the original image, the highlights, especially in the sky and on the golden parts of the stupa, are slightly bright and could potentially lose subtle details if pushed further. While not severely blown out, they could benefit from a slight reduction to ensure detail retention.
+**Solution:** By very slightly reducing the highlights, the brightest areas of the image, such as the sky and the golden decorations, will be subtly toned down. This will help to preserve detail in these areas and prevent them from becoming overly dominant or distracting, leading to a more balanced tonal range.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** The shadows in the original image, particularly under the stupa and around the base, are a bit too deep, obscuring some of the details in these areas. This makes the lower parts of the stupa appear less defined and somewhat heavy.
+**Solution:** By very slightly increasing the shadows, the darker areas of the image will be brightened, revealing more detail in the shadowed regions under the stupa and around its base. This will improve the visibility of details in these areas and create a more balanced distribution of tones across the image.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image, particularly in the sky and the lighter parts of the stupa, appear slightly muted and could be brighter to enhance the overall luminosity of the scene. They lack a certain crispness and brilliance.
+**Solution:** By very slightly increasing the whites, the brightest tones in the image, such as the sky and the lighter parts of the stupa, will become slightly brighter and more pronounced. This will enhance the overall brightness of the image and add a touch of brilliance to the lighter areas, making the scene feel more airy and open.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, resulting in a somewhat dark and muted appearance. The entire scene could benefit from a slight increase in overall brightness to enhance its vibrancy and clarity.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be lifted. This will make the entire scene appear brighter and more vibrant, enhancing the visibility of all elements within the frame and creating a more inviting and well-lit photograph. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 10, \"Contrast\": 18, \"Highlights\": -10, \"Shadows\": 10, \"Whites\": 11, \"Exposure\": 11}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene look a bit muted and less engaging. Since it depicts a stupa in an outdoor setting, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more inviting and visually appealing atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The temperature needs to be very slightly increased.
+**Issue:** In the original image, the overall tone appears slightly cool. This coolness is subtly visible across the entire scene, including the sky and the stupa, making the image feel a bit sterile and less inviting.
+**Solution:** By very slightly increasing the temperature, the image will shift towards a warmer tone. This will neutralize the cool cast, making the sky appear less stark blue and the stupa's stone appear more naturally warm, thus creating a more pleasant and welcoming atmosphere.
+
+**Adjustment:** The tint needs to be very slightly increased towards magenta.
+**Issue:** The original image exhibits a very subtle greenish tint, which is most noticeable in the lighter areas of the stupa and the sky. This slight green cast can make the image look slightly unnatural and less balanced in color.
+**Solution:** By very slightly increasing the tint towards magenta, the subtle greenish cast will be neutralized. This adjustment will balance the color tones, resulting in a more neutral and natural color rendition across the image, particularly in the stupa and sky, making them appear cleaner and more balanced.
+
+**Adjustment:** The saturation needs to be mildly increased.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. The blue of the sky, the gold of the stupa's decorations, and even the colors of the surrounding foliage seem less intense and impactful. This lack of saturation makes the image feel less dynamic and visually engaging.
+**Solution:** By mildly increasing the saturation, the colors throughout the image will become richer and more vibrant. The blue of the sky will become more pronounced, the gold accents of the stupa will appear more lustrous, and the overall scene will gain a greater sense of depth and visual appeal, making it more captivating and lively. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Tint\": 1, \"Saturation\": 34}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly noticeable in the golden details of the building and the warm hues of the sunset. Since it depicts a historical building with golden accents, the editing should target the orange color range to enhance its richness and luminosity without altering the overall color balance of the scene. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards red will help create the intended effect of a more vibrant and visually appealing image with enhanced golden details.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be mildly increased.
+**Issue:** In the original image, the orange colors, especially in the golden decorations of the building and the warm sunset hues, appear somewhat muted and lack vibrancy. This makes the golden elements less visually striking and the overall image less impactful.
+**Solution:** By mildly increasing the saturation of the orange tones, the golden details of the building will become more vibrant and visually prominent. The sunset will also appear warmer and richer, enhancing the overall warmth and visual appeal of the image.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly shifted towards red.
+**Issue:** In the original image, the orange tones in the golden building decorations and sunset might lean slightly towards yellow, making them appear less rich and slightly less warm. This subtle yellow cast in the orange tones can detract from the overall warmth and richness of the scene.
+**Solution:** By very slightly shifting the hue of the orange tones towards red, the golden elements of the building and the sunset will gain a richer, warmer, and more refined orange hue. This subtle shift will enhance the overall warmth and visual appeal of the image by making the orange tones more pronounced and less yellowish. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 32, \"HueAdjustmentOrange\": -1}"
+```
+<|im_end|>

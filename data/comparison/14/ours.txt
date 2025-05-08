@@ -1,0 +1,84 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at night, featuring artificial lighting from ceiling lights and some ambient light from the walls, with underexposed shadows and low contrast. Since it captures a scene of a person in a room with a large structure, the editing should emphasize bringing out details in shadows and adding contrast to create a more visually engaging and dynamic image, enhancing the visibility of the subject and the environment.
+
+**Adjustment:** The blacks need to be mildly increased.
+**Issue:** In the original image, the black tones, particularly in the shadowed areas of the room and the silhouette of the person, are too deep and lack detail. This makes these areas appear muddy and obscures the textures and forms within the shadows.
+**Solution:** By mildly increasing the blacks, the shadow areas will be lifted, revealing more detail and texture in the darker parts of the room and the silhouette. The edited image will have a more open shadow region, making the scene feel less closed off and more detailed.
+
+**Adjustment:** The contrast needs to be moderately increased.
+**Issue:** The original image appears flat and lacks depth due to insufficient contrast. The tonal range is compressed, resulting in a lack of separation between the lighter and darker areas, which makes the image look less dynamic and visually less engaging.
+**Solution:** By moderately increasing the contrast, the separation between the highlights and shadows will be enhanced. The edited image will have a greater sense of depth and dimension, making the scene more visually striking and less flat.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, such as those on the ceiling lights and the walls, are somewhat muted and lack a certain brightness. While not blown out, they could be slightly enhanced to add a touch of luminosity to the scene.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, like the ceiling lights and walls, will gain a subtle lift in brightness. The edited image will have slightly more luminous highlights, contributing to a more balanced and visually appealing overall exposure.
+
+**Adjustment:** The shadows need to be very slightly reduced.
+**Issue:** While the shadows are underexposed, some areas within the shadows might appear slightly lifted or muddy after increasing blacks.  Reducing shadows slightly can refine the tonal balance and prevent the shadows from becoming too dominant or losing definition.
+**Solution:** By very slightly reducing the shadows, the shadow areas will retain a degree of depth and definition, preventing them from becoming overly bright or washed out after the blacks adjustment. The edited image will maintain a sense of depth in the shadows while ensuring they are not overly dark or muddy.
+
+**Adjustment:** The whites need to be very slightly reduced.
+**Issue:** The white tones in the original image, particularly on the walls and ceiling, are slightly too bright and could potentially lose detail if pushed further. They are not clipping but could be refined to ensure detail retention.
+**Solution:** By very slightly reducing the whites, the brightest areas of the image will be subtly toned down. The edited image will ensure that the white tones retain detail and do not become overly bright or blown out, contributing to a more balanced tonal range.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit dark and muted. This underexposure reduces the visibility of details across the image and makes the scene feel less inviting.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be lifted. The edited image will be brighter and more inviting, revealing more details throughout the scene and making it more visually accessible. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 29, \"Contrast\": 42, \"Highlights\": 12, \"Shadows\": -12, \"Whites\": -1, \"Exposure\": 12}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the scene appear somewhat muted and less engaging. Since it depicts an indoor scene with a cultural element and people, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more inviting and visually appealing atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The temperature needs to be increased very slightly.
+**Issue:** In the original image, the overall tone appears slightly cool. This coolness is noticeable in the general ambiance of the scene, making the indoor lighting feel less warm and inviting. The cool temperature slightly diminishes the richness of the colors and makes the scene feel less cozy.
+**Solution:** By very slightly increasing the temperature, the edited image will introduce a touch of warmth. This will counteract the coolness, making the indoor lighting appear more inviting and enhancing the overall ambiance of the scene. The subtle warming will also contribute to a more pleasant and balanced color palette.
+
+**Adjustment:** The tint needs to be increased very slightly.
+**Issue:** The original image exhibits a subtle greenish tint, particularly noticeable in the lighter areas and the white ceiling structure. This slight green cast can make the image appear slightly unnatural and less clean in its color presentation.
+**Solution:** By very slightly increasing the tint towards magenta, the edited image will neutralize the subtle green cast present in the original. This adjustment will result in cleaner whites in the ceiling and a more balanced color rendition throughout the image, leading to a more natural and refined look.
+
+**Adjustment:** The saturation needs to be increased slightly.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. This is evident in the colors of the decorative elements, the clothing of the people, and the overall scene. The lack of saturation makes the image feel less dynamic and visually impactful.
+**Solution:** By slightly increasing the saturation, the edited image will enhance the vibrancy and richness of all colors. The colors of the decorative elements will become more pronounced, the clothing will appear more colorful, and the overall scene will gain a more lively and engaging visual appeal. This increase in saturation will make the image more captivating and visually appealing. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 10, \"Tint\": 10, \"Saturation\": 18}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted orange tones, particularly in the lighting and wooden elements, which makes the scene appear less warm and inviting. Since it depicts an indoor scene with warm artificial lighting, the editing should target the orange color range to enhance the warmth and vibrancy of the lighting and wooden elements without drastically altering the overall color palette. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards a warmer tone will help create the intended effect of a more inviting and warmer atmosphere.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be mildly increased.
+**Issue:** In the original image, the orange tones, especially visible in the lighting fixtures and wooden structures, appear somewhat muted and lack vibrancy. This desaturation makes the scene feel less warm and inviting, diminishing the intended ambiance of the indoor setting.
+**Solution:** By mildly increasing the saturation of the orange tones, the orange elements in the image, such as the lighting and wooden structures, will become more vibrant and pronounced. This enhancement will contribute to a warmer and more inviting atmosphere in the edited image, making the scene feel more visually appealing and cozy.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly adjusted towards a warmer direction.
+**Issue:** In the original image, the orange tones, particularly noticeable in the lighting and wooden elements, lean slightly towards a less warm hue. This subtle coolness in the orange range makes the overall lighting appear less inviting and slightly less natural, detracting from the intended warm ambiance of the scene.
+**Solution:** By very slightly adjusting the hue of the orange tones towards a warmer direction, the orange elements in the image, such as the lighting and wooden structures, will exhibit a richer and more inviting warmth. This subtle shift will enhance the overall cozy and inviting atmosphere of the edited image, making the lighting appear more appealing and natural. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 28, \"HueAdjustmentOrange\": 1}"
+```
+<|im_end|>

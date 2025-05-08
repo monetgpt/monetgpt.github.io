@@ -1,0 +1,80 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken during daytime, featuring soft, diffused lighting, with slightly underexposed shadows and a lack of overall brightness. Since it captures a portrait with dramatic lighting, the editing should emphasize bringing out details in shadows and slightly brightening the overall image to create a more balanced and visually appealing portrait while maintaining the dramatic mood.
+
+**Adjustment:** The blacks need to be slightly increased.
+**Issue:** In the original image, the black areas, particularly in the background and the woman's hair, are too deep and lack detail. This makes these areas appear somewhat flat and obscures potential texture and form within the shadows.
+**Solution:** By slightly increasing the blacks, the darkest tones will be lifted, revealing more detail in the background and hair. The edited image will have richer shadows with improved texture and depth, preventing the blacks from appearing overly dense and featureless.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, especially on the woman's skin and the reflective surfaces of the bracelet, appear somewhat muted and lack a certain brilliance. This contributes to an overall slightly flat tonal range and prevents the highlights from truly standing out.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, such as the skin and bracelet, will gain a subtle lift in brightness. The edited image will have slightly more pronounced highlights, adding a touch of luminosity and preventing the highlights from appearing dull or subdued.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** In the original image, the shadows, particularly under the woman's chin, around her eyes, and in the darker parts of her hair, are somewhat underexposed and lack detail. This makes these areas appear too dark and obscures the subtle contours and features within the shadows.
+**Solution:** By very slightly increasing the shadows, the darker areas of the image will be gently brightened. The edited image will reveal more detail in the shadowed regions, such as under the chin and in the hair, making these areas more defined and less obscured by darkness.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** In the original image, the white tones, such as the brightest parts of the bracelet and the highlights on the skin, are not fully realized and appear slightly subdued. This contributes to the overall slightly muted and less vibrant appearance of the image.
+**Solution:** By very slightly increasing the whites, the brightest tones in the image will be subtly enhanced. The edited image will have slightly brighter whites, adding a touch of overall brightness and enhancing the vibrancy of the highlights without causing them to become overexposed.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, resulting in a somewhat dark and muted appearance. This affects the overall brightness and vibrancy of the image, making it appear less lively and impactful.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be lifted. The edited image will be brighter and more vibrant, enhancing the visibility of all elements in the scene and creating a more visually engaging photograph. 
+
+The parameters for **[Contrast]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+Et
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 24, \"Highlights\": 12, \"Shadows\": 11, \"Whites\": 12, \"Exposure\": 1}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight cool cast and under-saturated colors, which makes the image appear somewhat muted and less engaging. Since it depicts a portrait in a studio setting, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature, Tint, and Saturation will help correct the cool tones and enhance the photo's overall color intensity, ensuring the final image conveys a more lively and visually appealing impression.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The temperature needs to be increased very slightly.
+**Issue:** In the original image, there is a subtle cool cast, evident in the slightly bluish tones of the skin and the overall muted warmth of the scene. This coolness makes the image feel less inviting and slightly sterile.
+**Solution:** By very slightly increasing the temperature, the edited image will introduce a touch of warmth, counteracting the cool cast. This will result in more natural and healthier-looking skin tones and a more inviting overall atmosphere.
+
+**Adjustment:** The tint needs to be increased very slightly.
+**Issue:** The original image exhibits a very subtle greenish tint, which is faintly noticeable in the skin tones and the darker areas of the image. This slight green cast can make the skin appear slightly unwell and the overall color balance slightly off.
+**Solution:** By very slightly increasing the tint towards magenta, the edited image will neutralize the subtle greenish tint. This adjustment will balance the color spectrum, leading to more accurate and pleasing skin tones and a more harmonious overall color balance.
+
+**Adjustment:** The saturation needs to be increased very slightly.
+**Issue:** In the original image, the colors appear somewhat muted and lack vibrancy. This is particularly noticeable in the skin tones, the gold bracelet, and the overall scene, which feels a bit flat and less visually engaging.
+**Solution:** By very slightly increasing the saturation, the edited image will enhance the color intensity across the entire scene. The skin tones will gain a healthier and more vibrant appearance, the gold bracelet will appear richer, and the overall image will become more visually appealing and dynamic. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Tint\": 1, \"Saturation\": 11}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly noticeable in the skin and the gold bracelet, which makes the overall image appear a bit less lively. Since it depicts a portrait with a focus on the subject's face and jewelry, the editing should target the orange color range to enhance the warmth and richness of these elements without drastically altering the overall color palette. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards red will help create the intended effect of a more vibrant and visually appealing portrait with enhanced skin tones and richer gold accents.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be mildly increased.
+**Issue:** In the original image, the orange tones, especially in the subject's skin and the gold bracelet, appear somewhat muted and lack vibrancy. This desaturation makes the skin look less lively and the gold bracelet less visually striking, reducing the overall impact of the portrait.
+**Solution:** By mildly increasing the saturation of the orange tones, the skin in the edited image will appear healthier and more vibrant. The gold bracelet will also gain a richer, more pronounced color, enhancing its visual appeal and drawing more attention to the jewelry.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly shifted towards red.
+**Issue:** In the original image, the orange tones in the skin and the gold bracelet might lean slightly towards yellow, making them appear a bit less warm and potentially slightly less natural. This subtle yellow bias in the orange hues can detract from the overall warmth and richness of the image.
+**Solution:** By very slightly shifting the hue of the orange tones towards red, the skin tones in the edited image will gain a warmer and more natural appearance. The gold bracelet will also exhibit a richer, more refined orange hue, contributing to a more harmonious and visually pleasing color palette in the final image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 25, \"HueAdjustmentOrange\": -1}"
+```
+<|im_end|>

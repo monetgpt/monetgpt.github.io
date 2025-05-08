@@ -1,0 +1,76 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at golden hour, featuring soft twilight glow, with slightly underexposed shadows and low contrast. Since it captures a person on a wave, the editing should emphasize brightening the overall image, enhancing contrast, and bringing out details in shadows to create a more vibrant and visually appealing photograph that captures the energy of the scene.
+
+**Adjustment:** The blacks need to be slightly increased.
+**Issue:** In the original image, the black tones, particularly in the shadows of the water and the person's clothing, appear somewhat dense and lack detail. This makes these areas look slightly muddy and less defined, reducing the overall clarity of the image.
+**Solution:** By slightly increasing the blacks, the shadow areas will be lifted, revealing more detail in the darker regions of the water and the person's attire. The edited image will have a more open shadow area, enhancing the texture and form in these regions.
+
+**Adjustment:** The contrast needs to be moderately increased.
+**Issue:** The original image appears somewhat flat and lacks dynamic range. The separation between the lighter and darker tones is not pronounced enough, resulting in a less impactful and slightly dull visual experience.
+**Solution:** By moderately increasing the contrast, the difference between the highlights and shadows will be enhanced. The edited image will exhibit a greater sense of depth and visual interest, with brighter highlights and darker shadows creating a more dynamic and engaging composition.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, especially in the sky and on the water surface, are not as bright as they could be. This contributes to the overall slightly muted and less vibrant appearance of the image.
+**Solution:** By very slightly increasing the highlights, the brighter areas of the image, such as the sky and water reflections, will become more luminous. The edited image will have a subtle lift in the brightest tones, contributing to a more airy and bright feel without losing detail in the highlights.
+
+**Adjustment:** The shadows need to be very slightly increased.
+**Issue:** The shadows in the original image, particularly in the foreground water and around the person, are a bit too dark. This obscures some of the details in these areas and makes the image feel slightly underexposed in the darker regions.
+**Solution:** By very slightly increasing the shadows, the darker areas of the image will be gently brightened. The edited image will reveal more detail in the foreground water and around the person, making these areas more visible and contributing to a more balanced tonal range across the entire image.
+
+**Adjustment:** The whites need to be very slightly increased.
+**Issue:** The white tones in the original image are not fully realized, appearing somewhat muted. This limits the image's overall brightness and dynamic range, preventing it from achieving its full potential in terms of luminosity.
+**Solution:** By very slightly increasing the whites, the brightest tones in the image will be subtly enhanced. The edited image will have a slightly brighter overall appearance, with a more complete tonal range and a subtle lift in the very brightest areas, contributing to a more polished final look. 
+
+The parameters for **[Exposure]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 19, \"Contrast\": 40, \"Highlights\": 11, \"Shadows\": 12, \"Whites\": 12}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slightly cool and under-saturated color profile, which makes the scene appear somewhat muted and less engaging. Since it depicts a dynamic scene of a person enjoying the sea, the editing goal is to refine the overall color balance to achieve a warmer and more vibrant mood. To accomplish this, adjustments like Temperature and Saturation will help enhance the photo's overall tone, ensuring the final image conveys a more energetic and visually appealing feel.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The temperature needs to be very slightly increased.
+**Issue:** In the original image, the overall color tone appears slightly cool. This coolness is subtly noticeable across the entire scene, including the water, sky, and the subject's skin tones, making the image feel a bit less inviting and slightly muted in terms of warmth.
+**Solution:** By very slightly increasing the temperature, the edited image will introduce a touch of warmth, counteracting the coolness. This will result in more natural and healthier-looking skin tones for the subject and a more inviting and pleasant overall atmosphere in the scene.
+
+**Adjustment:** The saturation needs to be slightly increased.
+**Issue:** The original image exhibits a lack of overall color vibrancy. The colors, particularly in the water and the sky, appear somewhat muted and less impactful. This reduced saturation makes the scene feel less dynamic and visually less engaging.
+**Solution:** By slightly increasing the saturation, the edited image will enhance the color intensity across the entire scene. The water will appear more vibrant and reflective, the sky will gain a richer tone, and the subject's clothing and skin will also benefit from increased color depth, resulting in a more visually appealing and energetic photograph. 
+
+The parameters for **[Tint]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Temperature\": 1, \"Saturation\": 14}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant orange tones, particularly in the sand and the overall warm cast of the scene. Since it depicts a beach scene with a person enjoying the waves, the editing should target the orange color range to enhance the warmth and vibrancy of the sand and the overall golden hour feel without drastically altering the entire color palette. To achieve this, adjustments like increasing the saturation of orange and slightly shifting the hue of orange towards red will help create the intended effect of a warmer, more inviting, and slightly more vibrant beach scene.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of the orange tones needs to be very slightly increased.
+**Issue:** In the original image, the orange tones, especially in the sand and the overall warm cast of the scene, appear somewhat muted and lack vibrancy. This makes the beach scene feel slightly less lively and warm.
+**Solution:** By very slightly increasing the saturation of the orange tones, the sand and the overall warm cast of the scene will gain a subtle vibrancy. The edited image will have a slightly richer and more inviting feel, enhancing the warmth of the beach setting.
+
+**Adjustment:** The hue of the orange tones needs to be very slightly shifted towards red.
+**Issue:** In the original image, the orange tones, particularly in the sand, might lean slightly towards yellow, making them appear a bit less warm and potentially slightly less natural in the context of a beach scene.
+**Solution:** By very slightly shifting the hue of the orange tones towards red, the orange colors, especially in the sand, will become warmer and richer. The edited image will exhibit a more natural and inviting warmth in the sand and overall scene, enhancing the golden hour feel. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentOrange\": 12, \"HueAdjustmentOrange\": -1}"
+```
+<|im_end|>

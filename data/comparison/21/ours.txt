@@ -1,0 +1,76 @@
+**Exposure, Contrast & Tonal Range Adjustments**
+
+**Editing Goal:**
+The original image was taken at daytime, featuring soft, diffused lighting conditions, with slightly underexposed shadows and a general lack of contrast. Since it captures a winter scene with two people in a snow structure, the editing should emphasize brightening the overall image, enhancing contrast to make the subjects and the scene more visually appealing, and balancing the tonal range to reveal details in both shadows and highlights, aiming for a more vibrant and engaging photograph.
+
+**Adjustment:** The blacks need to be mildly increased.
+**Issue:** In the original image, the black tones, particularly in the shadows of the trees and the darker parts of the snow structure, are too deep and lack detail. This makes these areas appear somewhat muddy and reduces the overall clarity of the image.
+**Solution:** By mildly increasing the blacks, the shadow areas will be lifted, revealing more detail in the darker parts of the image, such as the texture of the snow and the details within the trees. The edited image will have a more open shadow region, improving the overall clarity and depth.
+
+**Adjustment:** The contrast needs to be slightly increased.
+**Issue:** The original image appears somewhat flat and lacks dynamic range. The separation between the lighter and darker tones is not pronounced enough, resulting in a less engaging and slightly dull appearance.
+**Solution:** By slightly increasing the contrast, the difference between the highlights and shadows will be enhanced. The edited image will have a greater sense of depth and visual interest, with brighter highlights and darker shadows creating a more dynamic and appealing image.
+
+**Adjustment:** The highlights need to be very slightly increased.
+**Issue:** In the original image, the highlights, especially on the snow structure and the snow-covered ground, appear slightly muted and lack a certain brilliance. This contributes to the overall slightly flat appearance of the image.
+**Solution:** By very slightly increasing the highlights, the brightest areas of the image, such as the snow, will gain a subtle lift in brightness. The edited image will have slightly more pronounced highlights, adding a touch of brilliance and making the snow appear more reflective and textured.
+
+**Adjustment:** The shadows need to be very slightly reduced.
+**Issue:** While the shadows are generally underexposed, some areas within the shadows might appear slightly lifted or muddy after increasing blacks. This can make the shadows appear less defined and potentially lose some of their depth.
+**Solution:** By very slightly reducing the shadows, the shadow areas will retain a degree of depth and definition. The edited image will maintain a balanced tonal range, preventing the shadows from becoming too flat or washed out, while still benefiting from the increased shadow detail from the blacks adjustment.
+
+**Adjustment:** The whites need to be very slightly reduced.
+**Issue:** In the original image, the white tones, particularly in the brightest parts of the snow structure, might be slightly too intense and could potentially lose detail if pushed further. While not severely blown out, they could benefit from a slight reduction to ensure detail retention.
+**Solution:** By very slightly reducing the whites, the absolute brightest parts of the image will be subtly toned down. The edited image will ensure that detail is preserved in the white areas, preventing any potential clipping and maintaining texture in the snow, especially in the brightest parts of the structure.
+
+**Adjustment:** The exposure needs to be very slightly increased.
+**Issue:** The original image is slightly underexposed overall, making the entire scene appear a bit darker than it could be. This affects the overall brightness and vibrancy of the image, making it feel less lively.
+**Solution:** By very slightly increasing the exposure, the overall brightness of the image will be enhanced. The edited image will be brighter and more vibrant, improving the visibility of all elements in the scene and creating a more cheerful and inviting atmosphere. 
+
+ 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Blacks\": 25, \"Contrast\": 13, \"Highlights\": 1, \"Shadows\": -1, \"Whites\": -1, \"Exposure\": 12}"
+```
+<|im_end|>**Editing Goal:**
+The original image currently has a slight green cast, which is particularly noticeable in the snow and the skin tones of the subjects, making the overall scene appear slightly unnatural and less appealing. Since it depicts a winter scene with people, the editing goal is to refine the white balance to achieve a more neutral and natural color representation. To accomplish this, adjustments like Tint will help correct the green cast, ensuring the final image conveys a fresh and natural winter atmosphere.
+
+**White Balance & Global Saturation**
+
+**Adjustment:** The tint needs to be very slightly increased towards magenta.
+**Issue:** In the original image, there is a subtle green cast affecting the overall color balance. This is most apparent in the snow, which appears slightly greenish rather than a pure white, and also in the skin tones of the subjects, which look a touch too green. This green tint detracts from the naturalness of the winter scene.
+**Solution:** By very slightly increasing the tint towards magenta, the green cast will be neutralized. The snow will appear cleaner and whiter, and the skin tones will look more natural and balanced, resulting in a more realistic and visually appealing representation of the winter environment. 
+
+The parameters for **[Temperature, Saturation]** are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"Tint\": 1}"
+```
+<|im_end|>**Editing Goal: Selective Color Adjustments**
+The original image shows slightly muted and less vibrant magenta tones, particularly noticeable in the woman's pink coat and the pink accents on the snow structure. Since it depicts a winter scene with people in colorful clothing, the editing should target the magenta color range to enhance its vibrancy and make it more visually appealing without altering the overall color balance of the scene. To achieve this, adjustments like increasing the saturation of magenta and slightly shifting its hue will help create the intended effect of a more vibrant and visually engaging image, emphasizing the pink elements.
+
+**Selective Color Adjustments**
+
+**Adjustment:** The saturation of magenta needs to be mildly increased.
+**Issue:** In the original image, the magenta color, especially in the woman's coat and the pink accents on the snow structure, appears somewhat muted and lacks vibrancy. This makes these elements less visually striking and less prominent within the scene.
+**Solution:** By mildly increasing the saturation of magenta, the pink tones in the woman's coat and the snow structure will become more vibrant and visually appealing. This will enhance the color richness of these elements, making them stand out more and contributing to a more lively and engaging image.
+
+**Adjustment:** The hue of magenta needs to be very slightly adjusted towards red.
+**Issue:** In the original image, the magenta color in the woman's coat and the pink accents on the snow structure might lean slightly towards purple, making it appear a bit less pure and slightly cooler in tone. This subtle hue issue can make the pink appear less rich and less visually appealing.
+**Solution:** By very slightly adjusting the hue of magenta towards red, the pink tones in the woman's coat and the snow structure will become warmer and richer. This subtle shift will refine the magenta color, making it appear more vibrant and visually appealing, enhancing the overall color harmony of the image. 
+
+The parameters for other colors are already set at **optimal** values and do not require any modification. 
+These adjustments will lead to an **optimal** image.<|im_end|>
+
+Applying the below adjustment values in Lightroom will make the image **optimal**.
+
+```json
+"{\"SaturationAdjustmentMagenta\": 34, \"HueAdjustmentMagenta\": -1}"
+```
+<|im_end|>
