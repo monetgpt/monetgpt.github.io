@@ -553,7 +553,7 @@
       <img src="logo.webp" alt="MonetGPT Logo" style="height: 80px; vertical-align: middle; margin-right: 10px;">
       <strong style="font-size: calc(0.6rem + 1vw);"><b>MonetGPT: Solving Puzzles Enhances MLLMs' Image Retouching Skills</b></strong>
     </h2>
-    <h3><center><b>SIGGRAPH 2025 [Journal Track]</b></center></h3>
+    <h3><center><b>SIGGRAPH 2025 [ACM Transactions on Graphics]</b></center></h3>
     <div style="text-align: center; margin-bottom: 2em;"> <div style="margin-bottom: 0.5em; line-height: 1.5;">
       <a href="https://niladridutt.com/" target="_blank" style="font-size: 1.1em; font-weight: 500; margin: 0 0.1em;">Niladri Shekhar Dutt</a><sup style="font-size: 0.8em;">1</sup>,  
       <a href="https://www.duygu-ceylan.com/" target="_blank" style="font-size: 1.1em; font-weight: 500; margin: 0 0.1em;">Duygu Ceylan</a><sup style="font-size: 0.8em;">2</sup>,  
@@ -570,10 +570,10 @@
   </div>
 
   <div class="external-link">
-      <a class="btn" href="" role="button" target="_blank">
+      <a class="btn" href="https://arxiv.org/abs/2505.06176" role="button" target="_blank">
           <i class="ai ai-arxiv"></i> Arxiv
       </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="btn" href="" role="button" target="_blank">
+      <a class="btn" href="https://arxiv.org/pdf/2505.06176" role="button" target="_blank">
           <i class="fa fa-file-pdf"></i> Paper
       </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a class="btn" href="https://github.com/niladridutt/monetGPT" role="button" target="_blank">
@@ -620,7 +620,6 @@
     evaluate our setup on a variety of test examples and show advantages, in
     terms of explainability and identity preservation, over existing generative
     and other procedural alternatives.</div>
-
 
 
   <div class="content">
@@ -696,73 +695,26 @@
   </p>
   <P>[Right image] The autoregressive nature of MLLMs, combined with our staged editing pipeline, allows the user to edit the plan (P) at any stage. The refined plan is used to determine subsequent parameter values. Moreover, the edited plan P' enables the MLLM to generate plans for subsequent stages that are consistent with the edits. The right-bottom image (P''*) shows a result following further modifications to the second and 
     third stages,after the first stage was modified to generate P".</p>
-  <center><img src="data/figures/personalized.jpg" style="width:80%;"></center>
+  <center><img src="data/figures/personalized.jpg" style="width:85%;"></center>
 </div>
 
 
-<!-- <div class="content">
-  <h2 style="text-align:center;">Library</h2>
-  <p style="text-align:center;">
-    Our Python library supports the following operations:
-  </p>
-
-  <div style="margin: 20px auto; width: 80%;">
-    <h3 style="color: #4CAF50;">Exposure, Contrast & Tonal Range Adjustments</h3>
-    <ul style="list-style-type: square; padding-left: 20px;">
-      <li>Blacks</li>
-      <li>Contrast</li>
-      <li>Highlights</li>
-      <li>Shadows</li>
-      <li>Whites</li>
-      <li>Exposure</li>
-    </ul>
-
-    <h3 style="color: #2196F3;">White Balance & Global Saturation</h3>
-    <ul style="list-style-type: square; padding-left: 20px;">
-      <li>Temperature</li>
-      <li>Tint</li>
-      <li>Saturation</li>
-    </ul>
-
-    <h3 style="color: #FF5722;">Selective Color Adjustments</h3>
-    <ul style="list-style-type: square; padding-left: 20px;">
-      <li>HueAdjustmentAqua</li>
-      <li>HueAdjustmentBlue</li>
-      <li>HueAdjustmentGreen</li>
-      <li>HueAdjustmentYellow</li>
-      <li>HueAdjustmentRed</li>
-      <li>HueAdjustmentMagenta</li>
-      <li>HueAdjustmentOrange</li>
-      <li>HueAdjustmentPurple</li>
-      <li>LuminanceAdjustmentAqua</li>
-      <li>LuminanceAdjustmentBlue</li>
-      <li>LuminanceAdjustmentGreen</li>
-      <li>LuminanceAdjustmentYellow</li>
-      <li>LuminanceAdjustmentRed</li>
-      <li>LuminanceAdjustmentOrange</li>
-      <li>LuminanceAdjustmentMagenta</li>
-      <li>LuminanceAdjustmentPurple</li>
-      <li>SaturationAdjustmentAqua</li>
-      <li>SaturationAdjustmentBlue</li>
-      <li>SaturationAdjustmentGreen</li>
-      <li>SaturationAdjustmentYellow</li>
-      <li>SaturationAdjustmentMagenta</li>
-      <li>SaturationAdjustmentOrange</li>
-      <li>SaturationAdjustmentPurple</li>
-      <li>SaturationAdjustmentRed</li>
-    </ul>
-  </div>
-</div> -->
-
-<!-- <div class="content">
+<div class="content">
   <h2>BibTex</h2>
-  <code> @article{ruiz2022dreambooth,<br>
-  &nbsp;&nbsp;title={DreamBooth: Fine Tuning Text-to-image Diffusion Models for Subject-Driven Generation},<br>
-  &nbsp;&nbsp;author={Ruiz, Nataniel and Li, Yuanzhen and Jampani, Varun and Pritch, Yael and Rubinstein, Michael and Aberman, Kfir},<br>
-  &nbsp;&nbsp;booktitle={arXiv preprint arxiv:2208.12242},<br>
-  &nbsp;&nbsp;year={2022}<br>
-  } </code> 
-</div> -->
+  <code>
+@article{dutt2025monetgpt,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;title={MonetGPT: Solving Puzzles Enhances MLLMs' Image Retouching Skills},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;author={Dutt, Niladri Shekhar and Ceylan, Duygu and Mitra, Niloy J.},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;journal={ACM Transactions on Graphics (TOG)},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;volume={44},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;number={4},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;year={2025},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;publisher={ACM New York, NY, USA},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;doi={10.1145/3730926},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;url={https://monetgpt.github.io/}<br>
+}
+  </code> 
+</div>
 <div class="content" id="acknowledgements">
   <p><strong>Acknowledgements</strong>:
     We thank Rishabh Kabra, Ruchira Ray, Tobias Ritschel, Chen Liu, Sylvain Paris, and Morten Hannemose for their comments and suggestions. Niloy was supported by gifts from Adobe and UCL AI
@@ -772,5 +724,3 @@ Centre.  </p>
 <br><br>
 
 </html>
-
-<!-- dreambooth -->
